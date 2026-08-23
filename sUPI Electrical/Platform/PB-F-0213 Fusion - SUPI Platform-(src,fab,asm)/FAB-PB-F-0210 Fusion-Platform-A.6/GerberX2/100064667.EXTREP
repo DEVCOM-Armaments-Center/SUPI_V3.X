@@ -1,0 +1,28 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: 100064667.GBR   8/19/2026  9:24:39 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                F.Cu                                    
+.G1                 In1.Cu                                  
+.G2                 In2.Cu                                  
+.G3                 In3.Cu                                  
+.G4                 ln4.Cu                                  
+.G5                 In5.Cu                                  
+.G6                 In6.Cu                                  
+.GBL                B.Cu                                    
+.GTO                F.SilkS                                 
+.GBO                B.SilkS                                 
+.GTS                F.Mask                                  
+.GBS                B.Mask                                  
+.GTP                F.Paste                                 
+.GBP                B.Paste                                 
+.GM                 Profile                                 
+.GBR1               Non-plated through-hole drill file      
+.GBR2               Plated through-hole drill file          
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------

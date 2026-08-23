@@ -1,0 +1,89 @@
+# sUPI v3.3 TDP — repository exclusions
+
+# ---------------------------------------------------------------------------
+# Native mechanical CAD — still carries the restrictive marking
+# ---------------------------------------------------------------------------
+# The restrictive-distribution wording lives inside each .prt and .drw file
+# (8-9 occurrences per part, 7 in the assembly), not in the shared .frm format,
+# so it cannot be cleared with a single template fix. These are binary Creo
+# files; they must be corrected in Creo and re-saved, not patched externally.
+# They also embed the author name 56-515 times per file.
+sUPI Mechanicals/*.prt.1
+sUPI Mechanicals/*.drw.1
+sUPI Mechanicals/*.asm.1
+sUPI Mechanicals/*.frm.1
+
+# ---------------------------------------------------------------------------
+# CAD session artefacts
+# ---------------------------------------------------------------------------
+# trail.txt.1 is a Creo session trail containing local Windows user account
+# paths, including a corporate cloud-storage path.
+sUPI Mechanicals/trail.txt.1
+sUPI Mechanicals/*_log.xml
+
+# Altium local history. Contains a nested .git repository, which git cannot
+# track as ordinary content, plus every intermediate autosave.
+**/.history/
+
+# ---------------------------------------------------------------------------
+# Altium Draftsman source — still carries the restrictive notices
+# ---------------------------------------------------------------------------
+# The .PCBDwf documents are the source of the fabrication and assembly drawing
+# PDFs. They still contain the notices that were cleared from the PDFs. The
+# format is compressed XML, so the text cannot be edited without Altium.
+sUPI Electrical/**/*.PCBDwf
+
+# ---------------------------------------------------------------------------
+# Redundant generated output
+# ---------------------------------------------------------------------------
+# Unpacked ODB++ trees: 147 machine-generated files that duplicate the .tgz
+# and .zip archives sitting in the same folder. Archives are tracked.
+sUPI Electrical/**/ODB/odb/
+
+# IPC2581 .cvg files are 26-29 MB each and carry the same design data as the
+# Gerber and ODB++ sets.
+sUPI Electrical/**/IPC2581/
+
+# ---------------------------------------------------------------------------
+# Externally controlled document — not mirrored
+# ---------------------------------------------------------------------------
+# The Picatinny CLIK Design Standard belongs to another activity and carries its
+# own revision history and point of contact. A copy held here goes stale the
+# moment they revise it — Table 2 of Rev 3.0 already misstates this package's
+# distribution. Consumers should request the current revision from the design
+# activity; the README summarises the interface envelope and cites it.
+CLIK-Design-Standard-v3.pdf
+
+# ---------------------------------------------------------------------------
+# Superseded source documents
+# ---------------------------------------------------------------------------
+# Converted to Markdown; the .md versions are tracked and carry the
+# corrections. Change Log.docx additionally carries the originator's name in
+# docProps/core.xml and a Microsoft Purview sensitivity label in
+# docMetadata/LabelInfo.xml, neither visible on the page.
+sUPI Mechanicals/Change Log.docx
+sUPI_Payload_Brief.pdf
+sUPI_Platform_Brief.pdf
+sUPI Electrical/MFR_*.pdf
+MFR_Reference_Design.pdf
+
+# ---------------------------------------------------------------------------
+# Build artifacts
+# ---------------------------------------------------------------------------
+# .axf: unstripped ELF with a developer username and absolute build paths.
+sUPI Firmware/*.axf
+
+# ---------------------------------------------------------------------------
+# Internal working record
+# ---------------------------------------------------------------------------
+RELEASE_CHANGES.md
+
+# ---------------------------------------------------------------------------
+# OS cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini

@@ -1,0 +1,90 @@
+*************************************************************
+FileName = 100068622-001_Rev1.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\profile
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\stephdr
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\f.paste\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\f.paste\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\dielectric_1\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\dielectric_1\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\dielectric2\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\dielectric2\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\f.mask\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\f.mask\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\dielectric3\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\dielectric3\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\in1.cu\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\in1.cu\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\drill_non-plated_b.cu-f.cu\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\drill_non-plated_b.cu-f.cu\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\drill_non-plated_b.cu-f.cu\tools
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\b.mask\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\b.mask\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\drill_plated_b.cu-f.cu\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\drill_plated_b.cu-f.cu\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\drill_plated_b.cu-f.cu\tools
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\b.paste\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\b.paste\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\in2.cu\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\in2.cu\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\f.silks\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\f.silks\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\f.cu\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\f.cu\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\b.silks\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\b.silks\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\b.cu\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\b.cu\attrlist
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\rout\features
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\layers\rout\tools
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\steps\pcb\eda\data
+
+Generated File : C:\Users\matthew.t.sargent.AC\AppData\Local\Temp\Releases\Snapshot\1\Fabrication\ODB\odb\matrix\matrix
+
