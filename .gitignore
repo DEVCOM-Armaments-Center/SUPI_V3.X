@@ -1,0 +1,79 @@
+# sUPI v3.3 TDP — repository exclusions
+
+# ---------------------------------------------------------------------------
+# Native mechanical CAD
+# ---------------------------------------------------------------------------
+# Creo part, drawing, assembly and format files are not released. The STEP
+# models and the PDF drawings are the released mechanical data.
+sUPI Mechanicals/*.prt.1
+sUPI Mechanicals/*.drw.1
+sUPI Mechanicals/*.asm.1
+sUPI Mechanicals/*.frm.1
+
+# ---------------------------------------------------------------------------
+# CAD session artefacts
+# ---------------------------------------------------------------------------
+# Creo session trails and logs. None of them is design data.
+sUPI Mechanicals/trail.txt.1
+sUPI Mechanicals/*_log.xml
+
+# Altium local history. Contains a nested .git repository, which git cannot
+# track as ordinary content, plus every intermediate autosave.
+**/.history/
+
+# ---------------------------------------------------------------------------
+# Altium Draftsman drawing sources
+# ---------------------------------------------------------------------------
+# The released fabrication and assembly drawings are the PDFs in the FAB- and
+# ASM- folders.
+sUPI Electrical/**/*.PCBDwf
+
+# ---------------------------------------------------------------------------
+# Redundant generated output
+# ---------------------------------------------------------------------------
+# Unpacked ODB++ trees: 147 machine-generated files that duplicate the .tgz
+# and .zip archives sitting in the same folder. Archives are tracked.
+sUPI Electrical/**/ODB/odb/
+
+# IPC2581 .cvg files are 26-29 MB each and carry the same design data as the
+# Gerber and ODB++ sets.
+sUPI Electrical/**/IPC2581/
+
+# ---------------------------------------------------------------------------
+# Externally controlled document — not mirrored
+# ---------------------------------------------------------------------------
+# The Picatinny CLIK Design Standard has its own revision history and point of
+# contact. Request the current revision from the design activity; the docs
+# summarise the interface envelope and cite it.
+CLIK-Design-Standard-v3.pdf
+
+# ---------------------------------------------------------------------------
+# Superseded source documents
+# ---------------------------------------------------------------------------
+# Converted to Markdown; the .md versions are tracked.
+sUPI Mechanicals/Change Log.docx
+sUPI_Payload_Brief.pdf
+sUPI_Platform_Brief.pdf
+sUPI Electrical/MFR_*.pdf
+MFR_Reference_Design.pdf
+
+# ---------------------------------------------------------------------------
+# Build artifacts
+# ---------------------------------------------------------------------------
+# .axf: debug ELF builds.
+sUPI Firmware/*.axf
+
+# ---------------------------------------------------------------------------
+# Internal working record
+# ---------------------------------------------------------------------------
+RELEASE_CHANGES.md
+
+# ---------------------------------------------------------------------------
+# OS cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
