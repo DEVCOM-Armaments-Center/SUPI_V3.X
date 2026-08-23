@@ -23,19 +23,6 @@ The standard is not redistributed here; request the current revision from the de
 sUPI is a **reference design**, intended to evolve. See `MFR_Reference_Design.md` for how to submit
 recommendations.
 
-### Interface Envelope
-
-| | CLIK Lite / sUPI | Full CLIK |
-| --- | --- | --- |
-| Mounting | Custom dovetail | MIL-STD-1913 Picatinny rail |
-| Payload weight capacity | 5 lb | Platform dependent |
-| Electrical connection | Spring-loaded contacts | 801 series connector |
-| Platform power | Raw 4S–6S lithium-polymer | Platform derives 28 V |
-| Payload current | 4 A continuous | 10 A continuous |
-| Data | USB 2.0, up to High Speed | RS-232 and Ethernet 10/100 |
-| Discrete signals | 2× safety signals | 2× safety signals |
-| Relationship | Peripheral | Networked |
-
 ### The Two Halves
 
 | Half | Mounts to | Role |
