@@ -60,10 +60,10 @@ Start with [`sUPI_Platform_Brief.md`](sUPI_Platform_Brief.md) or
 | `VBATT` / `VBATT_RET` | 13 – 25.2 VDC, passed through |
 | `V1` | Regulated **3.3 or 5 VDC** — set by solder bridge |
 | `V2` | Regulated **5, 7.4, or 12 VDC** — set by solder bridge |
-| `GPIO` | Typically PWM, ±5 VDC |
+| `GPIO` | Typically PWM, ±3.3 VDC |
 | `USB` | 0 – 3.3 VDC |
 
-> **V1 and V2 are hardware-selected, not negotiated.** The rails are set by solder-bridge placement
+> **V1 and V2 are hardware-selected.** The rails are set by solder-bridge placement
 > at build time. Verify the bridges match the payload before first power-on.
 
 Both cards use solder pads for field wiring: 18–22 AWG for power, 24–30 AWG for signals.
