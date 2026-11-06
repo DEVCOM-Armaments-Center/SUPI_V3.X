@@ -1,0 +1,3220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>100068622-001_Rev1.kicad_sch</source>
+    <date>2024-09-11T14:35:20-0400</date>
+    <tool>Eeschema 8.0.3</tool>
+    <textvar name="ANGLE_TOLERANCE_X">± .1°</textvar>
+    <textvar name="APPROVED_LINE1">ENG APPROVAL PER</textvar>
+    <textvar name="CHECKED"/>
+    <textvar name="CHECKED_DATE"/>
+    <textvar name="CHECKED_INITIALS"/>
+    <textvar name="CONTRACT_NUMBER"/>
+    <textvar name="CONTRACT_NUMBER_LONG"/>
+    <textvar name="DRAWN"/>
+    <textvar name="DRAWN_DATE"/>
+    <textvar name="DRAWN_INITIALS"/>
+    <textvar name="ECR_CA"/>
+    <textvar name="ECR_CO"/>
+    <textvar name="ECR_REV"/>
+    <textvar name="ENGINEER"/>
+    <textvar name="ENGINEER_DATE"/>
+    <textvar name="LINEAR_TOLERANCE_XX">± .01</textvar>
+    <textvar name="LINEAR_TOLERANCE_XXX">± .005</textvar>
+    <textvar name="MODEL_TITLE">SUPI PAYLOAD BOARD</textvar>
+    <textvar name="MODEL_TITLE_3DMODEL">PCB ASSEMBLY</textvar>
+    <textvar name="MODEL_TITLE_LAYOUT">PCB FABRICATION</textvar>
+    <textvar name="MODEL_TITLE_SCHEMATIC">PCB SCHEMATIC</textvar>
+    <textvar name="PROJECT_NAME"/>
+    <textvar name="PWA_CONFIG">001</textvar>
+    <textvar name="PWA_FRIENDLY_NAME">SUPI_PAYLOAD_PWA</textvar>
+    <textvar name="PWA_NUMBER">100068622</textvar>
+    <textvar name="PWA_REV">1</textvar>
+    <textvar name="PWB_CONFIG">001</textvar>
+    <textvar name="PWB_FRIENDLY_NAME">SUPI_PAYLOAD_PWB</textvar>
+    <textvar name="PWB_NUMBER">100068610</textvar>
+    <textvar name="PWB_REV">1</textvar>
+    <textvar name="RELATED_EBOM_CONFIG">001</textvar>
+    <textvar name="RELATED_EBOM_NUMBER">100068622</textvar>
+    <textvar name="RELATED_EBOM_REV">1</textvar>
+    <textvar name="RELATED_PWA_CONFIG">001</textvar>
+    <textvar name="RELATED_PWA_NUMBER">100068622</textvar>
+    <textvar name="RELATED_PWA_REV">1</textvar>
+    <textvar name="RELATED_PWB_CONFIG">001</textvar>
+    <textvar name="RELATED_PWB_NUMBER">100068610</textvar>
+    <textvar name="RELATED_PWB_REV">1</textvar>
+    <textvar name="RELATED_SCH_CONFIG">001</textvar>
+    <textvar name="RELATED_SCH_NUMBER">100046137</textvar>
+    <textvar name="RELATED_SCH_REV">2</textvar>
+    <textvar name="SCALE_LAYOUT">1:1</textvar>
+    <textvar name="SCALE_SCHEMATIC">NONE</textvar>
+    <textvar name="SCH_CONFIG">001</textvar>
+    <textvar name="SCH_FRIENDLY_NAME">SUPI_PAYLOAD_SCH</textvar>
+    <textvar name="SCH_NUMBER">100046137</textvar>
+    <textvar name="SCH_REV">2</textvar>
+    <textvar name="SPONSOR"/>
+    <textvar name="SPONSOR_DATE"/>
+    <textvar name="TASK_LEADER"/>
+    <textvar name="TASK_LEADER_DATE"/>
+    <textvar name="TECHNICAL_DIRECTOR"/>
+    <textvar name="TECHNICAL_DIRECTOR_DATE"/>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>sUPI PAYLOAD BOARD</title>
+        <company/>
+        <rev>1</rev>
+        <date>2023-03-30</date>
+        <source>100068622-001_Rev1.kicad_sch</source>
+        <comment number="1" value="PWB PART 100043659-001"/>
+        <comment number="2" value="PWA PART 100045703-001"/>
+        <comment number="3" value="100046137"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>100068622_block_diagram.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>100068622_power_supplies.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Block Diagram/Payload Detect/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/379c71e9-1151-4f75-acc9-451d554c6df6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>100068622_payload_detect.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Block Diagram/Ideal Diode/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/4beb1c69-28e4-4dd5-a4a3-2605565c09fa/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>100068622_ideal_diode.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Block Diagram/Rail Discharge/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/e9fd5157-811a-429b-8cf7-54292ce31d6e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>100068622_rail_discharge.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Block Diagram/Data Switches/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>100068622_data_switches.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>26VWM</value>
+      <footprint>1a_Littelfuse:SOD-123FL</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf</datasheet>
+      <description>TVS SOD123FL 26V 200W UNIDIR</description>
+      <fields>
+        <field name="Mfr">Littelfuse</field>
+        <field name="MPN">SMF26A</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Footprint">1a_Littelfuse:SOD-123FL</field>
+        <field name="Datasheet">https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf</field>
+        <field name="Description">TVS SOD123FL 26V 200W UNIDIR</field>
+      </fields>
+      <libsource lib="1a_Littelfuse" part="SMF26A" description="TVS SOD123FL 26V 200W UNIDIR"/>
+      <property name="Mfr" value="Littelfuse"/>
+      <property name="MPN" value="SMF26A"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>fe2a9efc-be9f-48e0-b420-99cc1b725ae0</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>1a_TestPoints:Fiducial_Cu0.040_Mask0.060</footprint>
+      <fields>
+        <field name="Footprint">1a_TestPoints:Fiducial_Cu0.040_Mask0.060</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Fiducial_40mil_mask_60mil" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>f4377f00-033d-482f-b3f8-6f7a0c9298c9</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>1a_TestPoints:Fiducial_Cu0.040_Mask0.060</footprint>
+      <fields>
+        <field name="Footprint">1a_TestPoints:Fiducial_Cu0.040_Mask0.060</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Fiducial_40mil_mask_60mil" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>eb87e98c-7ae2-472d-9c57-7c8d085cc91b</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>1a_TestPoints:Fiducial_Cu0.040_Mask0.060</footprint>
+      <fields>
+        <field name="Footprint">1a_TestPoints:Fiducial_Cu0.040_Mask0.060</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Fiducial_40mil_mask_60mil" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>2807fd0d-f41d-445c-acba-55637a31627b</tstamps>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>1a_TestPoints:Fiducial_Cu0.040_Mask0.060</footprint>
+      <fields>
+        <field name="Footprint">1a_TestPoints:Fiducial_Cu0.040_Mask0.060</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Fiducial_40mil_mask_60mil" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>a30b9ff3-0d81-4768-a34e-c7908319b9ed</tstamps>
+    </comp>
+    <comp ref="FID5">
+      <value>Fiducial</value>
+      <footprint>1a_TestPoints:Fiducial_Cu0.040_Mask0.060</footprint>
+      <fields>
+        <field name="Footprint">1a_TestPoints:Fiducial_Cu0.040_Mask0.060</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Fiducial_40mil_mask_60mil" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>3c7cc8c9-82ee-454e-b171-d5befd45e1b2</tstamps>
+    </comp>
+    <comp ref="FID6">
+      <value>Fiducial</value>
+      <footprint>1a_TestPoints:Fiducial_Cu0.040_Mask0.060</footprint>
+      <fields>
+        <field name="Footprint">1a_TestPoints:Fiducial_Cu0.040_Mask0.060</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Fiducial_40mil_mask_60mil" description="Fiducial Marker"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="fiducial marker"/>
+      <property name="ki_fp_filters" value="Fiducial*"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>d64ba37d-19be-4116-8899-c167c42b8602</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>~</value>
+      <footprint>1a_MillMax:829-22-001-20-001101</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</datasheet>
+      <description>Pogo pin header, 1-pin, 0.1" pitch, right-angle, 55 mil stroke</description>
+      <fields>
+        <field name="MPN">829-22-001-20-001101</field>
+        <field name="Manufacturer">Mill-Max</field>
+        <field name="Footprint">1a_MillMax:829-22-001-20-001101</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</field>
+        <field name="Description">Pogo pin header, 1-pin, 0.1" pitch, right-angle, 55 mil stroke</field>
+      </fields>
+      <libsource lib="1a_MillMax" part="829-22-001-20-001101" description="Pogo pin header, 1-pin, 0.1&quot; pitch, right-angle, 55 mil stroke"/>
+      <property name="MPN" value="829-22-001-20-001101"/>
+      <property name="Manufacturer" value="Mill-Max"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="ki_keywords" value="header pogo"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>62ce6623-27d3-479f-aab8-6c0535dca6da</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>~</value>
+      <footprint>1a_MillMax:829-22-001-20-002101</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</datasheet>
+      <description>Pogo pin header, 1-pin, 0.1" pitch, right-angle, 90 mil stroke</description>
+      <fields>
+        <field name="MPN">829-22-001-20-002101</field>
+        <field name="Manufacturer">Mill-Max</field>
+        <field name="Footprint">1a_MillMax:829-22-001-20-002101</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</field>
+        <field name="Description">Pogo pin header, 1-pin, 0.1" pitch, right-angle, 90 mil stroke</field>
+      </fields>
+      <libsource lib="1a_MillMax" part="829-22-001-20-002101" description="Pogo pin header, 1-pin, 0.1&quot; pitch, right-angle, 90 mil stroke"/>
+      <property name="MPN" value="829-22-001-20-002101"/>
+      <property name="Manufacturer" value="Mill-Max"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="ki_keywords" value="header pogo"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>3b2db319-412c-4fe9-8e57-714661bfbf3c</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>~</value>
+      <footprint>1a_MillMax:829-22-005-20-001101</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</datasheet>
+      <description>Pogo pin header, 9-pin, 0.1" pitch, right-angle, 55 mil stroke</description>
+      <fields>
+        <field name="MPN">829-22-005-20-001101</field>
+        <field name="Manufacturer">Mill-Max</field>
+        <field name="Footprint">1a_MillMax:829-22-005-20-001101</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</field>
+        <field name="Description">Pogo pin header, 9-pin, 0.1" pitch, right-angle, 55 mil stroke</field>
+      </fields>
+      <libsource lib="1a_MillMax" part="829-22-005-20-001101" description="Pogo pin header, 9-pin, 0.1&quot; pitch, right-angle, 55 mil stroke"/>
+      <property name="MPN" value="829-22-005-20-001101"/>
+      <property name="Manufacturer" value="Mill-Max"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="ki_keywords" value="header pogo"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>81c9a4f9-02a6-4315-af84-5f58888b3119</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>~</value>
+      <footprint>1a_MillMax:829-22-001-20-002101</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</datasheet>
+      <description>Pogo pin header, 1-pin, 0.1" pitch, right-angle, 90 mil stroke</description>
+      <fields>
+        <field name="MPN">829-22-001-20-002101</field>
+        <field name="Manufacturer">Mill-Max</field>
+        <field name="Footprint">1a_MillMax:829-22-001-20-002101</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</field>
+        <field name="Description">Pogo pin header, 1-pin, 0.1" pitch, right-angle, 90 mil stroke</field>
+      </fields>
+      <libsource lib="1a_MillMax" part="829-22-001-20-002101" description="Pogo pin header, 1-pin, 0.1&quot; pitch, right-angle, 90 mil stroke"/>
+      <property name="MPN" value="829-22-001-20-002101"/>
+      <property name="Manufacturer" value="Mill-Max"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="ki_keywords" value="header pogo"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>7721bdcb-6f3b-4c63-801e-e80bd5138b00</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>~</value>
+      <footprint>1a_MillMax:829-22-001-20-001101</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</datasheet>
+      <description>Pogo pin header, 1-pin, 0.1" pitch, right-angle, 55 mil stroke</description>
+      <fields>
+        <field name="MPN">829-22-001-20-001101</field>
+        <field name="Manufacturer">Mill-Max</field>
+        <field name="Footprint">1a_MillMax:829-22-001-20-001101</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</field>
+        <field name="Description">Pogo pin header, 1-pin, 0.1" pitch, right-angle, 55 mil stroke</field>
+      </fields>
+      <libsource lib="1a_MillMax" part="829-22-001-20-001101" description="Pogo pin header, 1-pin, 0.1&quot; pitch, right-angle, 55 mil stroke"/>
+      <property name="MPN" value="829-22-001-20-001101"/>
+      <property name="Manufacturer" value="Mill-Max"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="ki_keywords" value="header pogo"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>8e5a86e8-2b58-4bc1-ae7d-737701d0513a</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>4a70f6af-3976-4bd0-95d0-0b415fd3e5a5</tstamps>
+    </comp>
+    <comp ref="P7">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>7fa59ab7-319a-444e-91dc-66ebbbf7d889</tstamps>
+    </comp>
+    <comp ref="P8">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>4d36b2f1-30cf-45a4-8dcc-afa3843e9972</tstamps>
+    </comp>
+    <comp ref="P9">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>27258609-76e2-4768-ae65-8de389ae7814</tstamps>
+    </comp>
+    <comp ref="P10">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>c81287cb-a4aa-40ad-8b16-bff0de1eef8c</tstamps>
+    </comp>
+    <comp ref="P11">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>8f1c98c8-92e1-4af9-8f0b-a49345da22bf</tstamps>
+    </comp>
+    <comp ref="P12">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>3c075732-fa12-4490-868b-81a5fe4bbda8</tstamps>
+    </comp>
+    <comp ref="P13">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>146e21f1-024e-4e91-81f0-310226dde617</tstamps>
+    </comp>
+    <comp ref="P14">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>b0585744-3b2d-41a3-acee-afffc28bd1b3</tstamps>
+    </comp>
+    <comp ref="P15">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>a7c9599e-8092-45ea-9f99-237f7c8bafc0</tstamps>
+    </comp>
+    <comp ref="P16">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_200x150_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_200x150_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_200x100_mil" description="200x100 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>2e4c941f-64d5-4b9d-b388-f59158ebe351</tstamps>
+    </comp>
+    <comp ref="P17">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>b6f3b70c-d95c-4ebc-a3b6-78f4342ae60d</tstamps>
+    </comp>
+    <comp ref="P18">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>44f90e4f-5ed8-4374-b314-ffd61fd6b2ee</tstamps>
+    </comp>
+    <comp ref="P19">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>ee187e7c-fcbc-472b-9e58-46535d20b9d9</tstamps>
+    </comp>
+    <comp ref="P20">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>7cab46bb-e4fd-4e54-b79b-fac8bea0333e</tstamps>
+    </comp>
+    <comp ref="P21">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>7d40a45c-e360-4797-9aa4-af8a2e60828c</tstamps>
+    </comp>
+    <comp ref="P22">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_200x150_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_200x150_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_200x100_mil" description="200x100 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>d8325cf4-68e9-4b57-82a4-cbfc4b70f2c1</tstamps>
+    </comp>
+    <comp ref="P23">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>670d3eaa-2955-42a5-978e-d639419b8b02</tstamps>
+    </comp>
+    <comp ref="P24">
+      <value>~</value>
+      <footprint>1a_Misc:Hand_Solder_Pad_100x80_mil</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil" description="100x80 pad for hand-soldering jumper wires"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>75ae498b-f5f8-4d4d-b74d-354b30696f68</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>Package_DFN_QFN:Diodes_DFN1006-3</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD5V0C2UM.pdf</datasheet>
+      <description>TVS DIODE 5VWM 3.4VC DFN1006-3</description>
+      <fields>
+        <field name="MPN">PESD5V0C2UM</field>
+        <field name="Mfr">Nexperia</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Footprint">Package_DFN_QFN:Diodes_DFN1006-3</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD5V0C2UM.pdf</field>
+        <field name="Description">TVS DIODE 5VWM 3.4VC DFN1006-3</field>
+      </fields>
+      <libsource lib="1a_Misc" part="PESD5V0C2UM" description="TVS DIODE 5VWM 3.4VC DFN1006-3"/>
+      <property name="MPN" value="PESD5V0C2UM"/>
+      <property name="Mfr" value="Nexperia"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Sheetname" value="Block Diagram"/>
+      <property name="Sheetfile" value="100068622_block_diagram.kicad_sch"/>
+      <sheetpath names="/Block Diagram/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/"/>
+      <tstamps>e5fc2d25-ec59-498d-83ba-cac69efd1ee6</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71H475KE15-01.pdf</datasheet>
+      <description>CAP CER 4.7UF 50V X7R 0805</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM21BZ71H475KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71H475KE15-01.pdf</field>
+        <field name="Description">CAP CER 4.7UF 50V X7R 0805</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM21BZ71H475KE15L" description="CAP CER 4.7UF 50V X7R 0805"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GRM21BZ71H475KE15L"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>b2e7a232-133d-4391-bb52-10879e5fe8f7</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF 35V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R6YA225KE11-01.pdf</datasheet>
+      <description>CAP CER 2.2UF 35V X5R 0402</description>
+      <fields>
+        <field name="MPN">GRM155R6YA225KE11D</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R6YA225KE11-01.pdf</field>
+        <field name="Description">CAP CER 2.2UF 35V X5R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM155R6YA225KE11D" description="CAP CER 2.2UF 35V X5R 0402"/>
+      <property name="MPN" value="GRM155R6YA225KE11D"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="C"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>dffdb6ab-8694-4234-a687-4f80f55d9c5f</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</datasheet>
+      <description>CAP CER 10UF 50V X5R 0805</description>
+      <fields>
+        <field name="MPN">GRM21BR61H106KE43L</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</field>
+        <field name="Description">CAP CER 10UF 50V X5R 0805</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM21BR61H106KE43L" description="CAP CER 10UF 50V X5R 0805"/>
+      <property name="MPN" value="GRM21BR61H106KE43L"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>af87147d-67a2-4dc0-af3d-ddac711b688d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</datasheet>
+      <description>CAP CER 0.1UF 50V X7R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H104ME02D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM155R71H104ME02D" description="CAP CER 0.1UF 50V X7R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM155R71H104ME02D"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>6eb27978-9584-4be3-8899-58e4393c407a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF 6.3V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME05-01A.pdf</datasheet>
+      <description>CAP CER 10UF 6.3V X5R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM155R60J106ME05D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME05-01A.pdf</field>
+        <field name="Description">CAP CER 10UF 6.3V X5R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM155R60J106ME05D" description="CAP CER 10UF 6.3V X5R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GRM155R60J106ME05D"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>e76c4a67-2b15-4c8c-93a8-7568590b3cc1</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF 50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71H475KE15-01.pdf</datasheet>
+      <description>CAP CER 4.7UF 50V X7R 0805</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM21BZ71H475KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71H475KE15-01.pdf</field>
+        <field name="Description">CAP CER 4.7UF 50V X7R 0805</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM21BZ71H475KE15L" description="CAP CER 4.7UF 50V X7R 0805"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GRM21BZ71H475KE15L"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>b43a62ee-504b-48b6-a139-c7c9cf73eec7</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</datasheet>
+      <description>CAP CER 0.1UF 50V X7R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H104ME02D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM155R71H104ME02D" description="CAP CER 0.1UF 50V X7R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM155R71H104ME02D"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>d9628677-de60-44cd-b35a-c7cd55d240b8</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10000pF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H103KA55-01.pdf</datasheet>
+      <description>CAP CER 10000PF 50V X7R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H103KA55D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H103KA55-01.pdf</field>
+        <field name="Description">CAP CER 10000PF 50V X7R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM155R71H103KA55" description="CAP CER 10000PF 50V X7R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM155R71H103KA55D"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="C"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>2b417c0b-d559-4018-a87d-82936d53b631</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF 6.3V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME05-01A.pdf</datasheet>
+      <description>CAP CER 10UF 6.3V X5R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM155R60J106ME05D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME05-01A.pdf</field>
+        <field name="Description">CAP CER 10UF 6.3V X5R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM155R60J106ME05D" description="CAP CER 10UF 6.3V X5R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GRM155R60J106ME05D"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>89ff1611-0d93-498a-bfcf-31a1595f5211</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</datasheet>
+      <description>CAP CER 0.1UF 50V X7R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H104ME02D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM155R71H104ME02D" description="CAP CER 0.1UF 50V X7R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM155R71H104ME02D"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>23e286c0-0e7a-4b8d-9f1a-b07ec416ae99</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</datasheet>
+      <description>CAP CER 0.1UF 50V X7R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H104ME02D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM155R71H104ME02D" description="CAP CER 0.1UF 50V X7R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM155R71H104ME02D"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>86851605-5b15-4522-8c63-698412888d2e</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10pF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H100FA16-01.pdf</datasheet>
+      <description>CAP CER 10PF 50V C0G/NP0 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM1555C1H100FA16D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H100FA16-01.pdf</field>
+        <field name="Description">CAP CER 10PF 50V C0G/NP0 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM1555C1H100FA16D" description="CAP CER 10PF 50V C0G/NP0 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM1555C1H100FA16D"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>b84c6564-5506-47db-ba52-eab9c0d5b629</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10pF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H100FA16-01.pdf</datasheet>
+      <description>CAP CER 10PF 50V C0G/NP0 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM1555C1H100FA16D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H100FA16-01.pdf</field>
+        <field name="Description">CAP CER 10PF 50V C0G/NP0 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM1555C1H100FA16D" description="CAP CER 10PF 50V C0G/NP0 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM1555C1H100FA16D"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>6df3b502-7134-4170-b9d4-6396b54d405d</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</datasheet>
+      <description>CAP CER 22UF 25V X5R 0805</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</field>
+        <field name="Description">CAP CER 22UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM21BR61E226ME44L" description="CAP CER 22UF 25V X5R 0805"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GRM21BR61E226ME44L"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>57579dd5-d873-42c3-ae43-d6f2d70b4c64</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</datasheet>
+      <description>CAP CER 22UF 25V X5R 0805</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</field>
+        <field name="Description">CAP CER 22UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM21BR61E226ME44L" description="CAP CER 22UF 25V X5R 0805"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GRM21BR61E226ME44L"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>2756104a-4bf3-4d94-8c16-ae70dffa4eec</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</datasheet>
+      <description>CAP CER 22UF 25V X5R 0805</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</field>
+        <field name="Description">CAP CER 22UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM21BR61E226ME44L" description="CAP CER 22UF 25V X5R 0805"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GRM21BR61E226ME44L"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>e2e97db2-0d5c-4571-8a65-5c60f585fd04</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</datasheet>
+      <description>CAP CER 22UF 25V X5R 0805</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</field>
+        <field name="Description">CAP CER 22UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM21BR61E226ME44L" description="CAP CER 22UF 25V X5R 0805"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GRM21BR61E226ME44L"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>06afb6cd-1305-433b-b539-15cd8776d885</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</datasheet>
+      <description>CAP CER 22UF 25V X5R 0805</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</field>
+        <field name="Description">CAP CER 22UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM21BR61E226ME44L" description="CAP CER 22UF 25V X5R 0805"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GRM21BR61E226ME44L"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>f28cf595-bb74-47cd-896f-cfebef56918c</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>22uF 25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</datasheet>
+      <description>CAP CER 22UF 25V X5R 0805</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</field>
+        <field name="Description">CAP CER 22UF 25V X5R 0805</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GRM21BR61E226ME44L" description="CAP CER 22UF 25V X5R 0805"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GRM21BR61E226ME44L"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>4cd21056-4957-4e4d-830e-29eb2a797778</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>22uF 35V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <description>CAP CER 22UF 35V X5R 0805</description>
+      <fields>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="MPN">C2012X5R1V226M125AC</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</field>
+        <field name="Description">CAP CER 22UF 35V X5R 0805</field>
+      </fields>
+      <libsource lib="1a_Misc" part="C2012X5R1V226M125AC" description="CAP CER 22UF 35V X5R 0805"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="MPN" value="C2012X5R1V226M125AC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>bb15c6ac-f23a-4617-8b47-26786c86a370</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>22uF 35V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <description>CAP CER 22UF 35V X5R 0805</description>
+      <fields>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="MPN">C2012X5R1V226M125AC</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</field>
+        <field name="Description">CAP CER 22UF 35V X5R 0805</field>
+      </fields>
+      <libsource lib="1a_Misc" part="C2012X5R1V226M125AC" description="CAP CER 22UF 35V X5R 0805"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="MPN" value="C2012X5R1V226M125AC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>d6b3a691-a453-4d03-a5d9-7fb0e4594d9d</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>22uF 35V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</datasheet>
+      <description>CAP CER 22UF 35V X5R 0805</description>
+      <fields>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="MPN">C2012X5R1V226M125AC</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</field>
+        <field name="Description">CAP CER 22UF 35V X5R 0805</field>
+      </fields>
+      <libsource lib="1a_Misc" part="C2012X5R1V226M125AC" description="CAP CER 22UF 35V X5R 0805"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="MPN" value="C2012X5R1V226M125AC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>c0e40ca7-70fb-4aa9-82ef-83e8a6c727f1</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>ed53f641-5bed-407b-be87-c1069cfc9111</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>a9623bcb-2fe1-4f34-8e43-3d7128e018c0</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>6b75a04b-7505-490a-b152-a53d5d306ddd</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>e5bfaecb-4184-434e-b58a-cf40e3a11a8a</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>189c44be-ec6f-40e3-9096-bc9543899c7c</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>0.47uH</value>
+      <footprint>1a_Misc:XEL4030-3.1mm</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/597/xel4030-1223874.pdf</datasheet>
+      <description>0.47uH shielded inductor, 15.6A, 4.6mOhm DCR</description>
+      <fields>
+        <field name="Manufacturer">Coilcraft</field>
+        <field name="MPN">XEL4030-471MEC</field>
+        <field name="Footprint">1a_Misc:XEL4030-3.1mm</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/597/xel4030-1223874.pdf</field>
+        <field name="Description">0.47uH shielded inductor, 15.6A, 4.6mOhm DCR</field>
+      </fields>
+      <libsource lib="1a_Misc" part="XEL4030-471MEC" description="0.47uH shielded inductor, 15.6A, 4.6mOhm DCR"/>
+      <property name="Manufacturer" value="Coilcraft"/>
+      <property name="MPN" value="XEL4030-471MEC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="L"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>f85963d7-58d4-42d7-957b-cf5f68e315c5</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>0.47uH</value>
+      <footprint>1a_Misc:XEL4030-3.1mm</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/597/xel4030-1223874.pdf</datasheet>
+      <description>0.47uH shielded inductor, 15.6A, 4.6mOhm DCR</description>
+      <fields>
+        <field name="Manufacturer">Coilcraft</field>
+        <field name="MPN">XEL4030-471MEC</field>
+        <field name="Footprint">1a_Misc:XEL4030-3.1mm</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/597/xel4030-1223874.pdf</field>
+        <field name="Description">0.47uH shielded inductor, 15.6A, 4.6mOhm DCR</field>
+      </fields>
+      <libsource lib="1a_Misc" part="XEL4030-471MEC" description="0.47uH shielded inductor, 15.6A, 4.6mOhm DCR"/>
+      <property name="Manufacturer" value="Coilcraft"/>
+      <property name="MPN" value="XEL4030-471MEC"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="L"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>1d745a0f-d587-462b-a1a5-e2a29f1c6ffb</tstamps>
+    </comp>
+    <comp ref="NT1">
+      <value>NetTie_2</value>
+      <footprint>1a_Misc:NetTie segment - 10 mils horizontal</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:NetTie segment - 10 mils horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="net tie short"/>
+      <property name="ki_fp_filters" value="Net*Tie*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>0fa6d3fd-b1c8-4380-83f4-289e3b5a26e8</tstamps>
+    </comp>
+    <comp ref="NT2">
+      <value>NetTie_2</value>
+      <footprint>1a_Misc:NetTie segment - 10 mils horizontal</footprint>
+      <fields>
+        <field name="Footprint">1a_Misc:NetTie segment - 10 mils horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="net tie short"/>
+      <property name="ki_fp_filters" value="Net*Tie*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>bc7d63a6-c877-4ac4-8466-d1cb29ed3e2e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100K 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>RES SMD 100K OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF1003X</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 100K OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-2RKF1003X" description="RES SMD 100K OHM 1% 1/10W 0402"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF1003X"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>5130396f-b023-410a-8441-5ad5ca239540</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100K 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>RES SMD 100K OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF1003X</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 100K OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-2RKF1003X" description="RES SMD 100K OHM 1% 1/10W 0402"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF1003X"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>d8bdca71-00f9-49b6-9d75-a88fa0b6e88b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>34.4K 0.1% 1/16W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.vishay.com/docs/28758/tnpw_e3.pdf</datasheet>
+      <description>RES 34.4K OHM 0.1% 1/16W 0402</description>
+      <fields>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="MPN">TNPW040234K4BEED</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://www.vishay.com/docs/28758/tnpw_e3.pdf</field>
+        <field name="Description">RES 34.4K OHM 0.1% 1/16W 0402</field>
+      </fields>
+      <libsource lib="1a_Misc" part="TNPW040234K4BEED" description="RES 34.4K OHM 0.1% 1/16W 0402"/>
+      <property name="Manufacturer" value="Vishay Dale"/>
+      <property name="MPN" value="TNPW040234K4BEED"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="res r"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>a8c3eae8-f115-43dd-b5ff-c67fe8c3c593</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>11K 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf</datasheet>
+      <description>RES 11K OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="MPN">ERJ-U02F1102X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf</field>
+        <field name="Description">RES 11K OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-U02F1102X" description="RES 11K OHM 1% 1/10W 0402"/>
+      <property name="MPN" value="ERJ-U02F1102X"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>5f741afd-193f-499c-8647-9cac367a92f6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>57.6K 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>RES SMD 57.6K OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="MPN">ERJ-2RKF5762X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 57.6K OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-2RKF5762X" description="RES SMD 57.6K OHM 1% 1/10W 0402"/>
+      <property name="MPN" value="ERJ-2RKF5762X"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>55fb4d19-8981-42ff-bfbc-fa9491092680</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>57.6K 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>RES SMD 57.6K OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="MPN">ERJ-2RKF5762X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 57.6K OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-2RKF5762X" description="RES SMD 57.6K OHM 1% 1/10W 0402"/>
+      <property name="MPN" value="ERJ-2RKF5762X"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>3e768a35-babc-4a5e-b98e-e112119906b9</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>11K 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf</datasheet>
+      <description>RES 11K OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="MPN">ERJ-U02F1102X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf</field>
+        <field name="Description">RES 11K OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-U02F1102X" description="RES 11K OHM 1% 1/10W 0402"/>
+      <property name="MPN" value="ERJ-U02F1102X"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>05d22c07-5726-4452-a0ca-d95232dced9c</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>90.9K 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>RES SMD 90.9K OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="MPN">ERJ-2RKF9092X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 90.9K OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-2RKF9092X" description="RES SMD 90.9K OHM 1% 1/10W 0402"/>
+      <property name="MPN" value="ERJ-2RKF9092X"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>c585afb2-3549-4fe6-9050-82ca806b21a3</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>154K 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>RES SMD 154K OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="MPN">ERJ-2RKF1543X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 154K OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-2RKF1543X" description="RES SMD 154K OHM 1% 1/10W 0402"/>
+      <property name="MPN" value="ERJ-2RKF1543X"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>2c46628d-366e-48e6-b212-2218b6d6d456</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>~</value>
+      <footprint>1a_Misc:WDFN6_2x2_0.65p_1.72x1.12mm_EP</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/ncp730-d.pdf</datasheet>
+      <description>IC REG LINEAR 3.3V 150MA 6WDFN</description>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="MPN">NCP730BMT330TBG</field>
+        <field name="Footprint">1a_Misc:WDFN6_2x2_0.65p_1.72x1.12mm_EP</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/ncp730-d.pdf</field>
+        <field name="Description">IC REG LINEAR 3.3V 150MA 6WDFN</field>
+      </fields>
+      <libsource lib="1a_Misc" part="NCP730BMT330TBG" description="IC REG LINEAR 3.3V 150MA 6WDFN"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="MPN" value="NCP730BMT330TBG"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <property name="ki_keywords" value="ldo"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>82022dea-14dc-4eb4-8d9e-389acb40b5e5</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MAX25254AFDE/VY+</value>
+      <footprint>1a_Misc:F234A5FY+1</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/max25254-max25255.pdf</datasheet>
+      <description>Dual 36V input, 0.8-14V output, 8A synchronous buck converter</description>
+      <fields>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="MPN">MAX25254AFDE/VY+</field>
+        <field name="Footprint">1a_Misc:F234A5FY+1</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/max25254-max25255.pdf</field>
+        <field name="Description">Dual 36V input, 0.8-14V output, 8A synchronous buck converter</field>
+      </fields>
+      <libsource lib="1a_Misc" part="MAX25254AFDE/VY+" description="Dual 36V input, 0.8-14V output, 8A synchronous buck converter"/>
+      <property name="Manufacturer" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="MPN" value="MAX25254AFDE/VY+"/>
+      <property name="Sheetname" value="Power Supplies"/>
+      <property name="Sheetfile" value="100068622_power_supplies.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Power Supplies/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/1fc32396-76d8-4221-819f-fffa03400cbf/"/>
+      <tstamps>2a7b0555-4988-4d88-926a-9c9c46f7bac9</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>4700pF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H472KA37-01.pdf</datasheet>
+      <description>CAP CER 4700PF 50V X7R 0402</description>
+      <fields>
+        <field name="MPN">GCM155R71H472KA37J</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H472KA37-01.pdf</field>
+        <field name="Description">CAP CER 4700PF 50V X7R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM155R71H472KA37J" description="CAP CER 4700PF 50V X7R 0402"/>
+      <property name="MPN" value="GCM155R71H472KA37J"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Sheetname" value="Payload Detect"/>
+      <property name="Sheetfile" value="100068622_payload_detect.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="C"/>
+      <sheetpath names="/Block Diagram/Payload Detect/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/379c71e9-1151-4f75-acc9-451d554c6df6/"/>
+      <tstamps>ac8fceff-df6f-45f9-b717-afe7ca0aa069</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>3.3VWM</value>
+      <footprint>1a_Littelfuse:SOD-123FL</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf3_3_datasheet.pdf.pdf</datasheet>
+      <description>TVS DIODE 3.3VWM 6.8VC SOD123FL</description>
+      <fields>
+        <field name="Mfr">Littelfuse</field>
+        <field name="MPN">SMF3.3</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Footprint">1a_Littelfuse:SOD-123FL</field>
+        <field name="Datasheet">https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf3_3_datasheet.pdf.pdf</field>
+        <field name="Description">TVS DIODE 3.3VWM 6.8VC SOD123FL</field>
+      </fields>
+      <libsource lib="1a_Littelfuse" part="SMF3.3" description="TVS DIODE 3.3VWM 6.8VC SOD123FL"/>
+      <property name="Mfr" value="Littelfuse"/>
+      <property name="MPN" value="SMF3.3"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Sheetname" value="Payload Detect"/>
+      <property name="Sheetfile" value="100068622_payload_detect.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Payload Detect/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/379c71e9-1151-4f75-acc9-451d554c6df6/"/>
+      <tstamps>32816f51-e321-4ce0-8af9-4931d09263cc</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>27 OHM @2MHZ</value>
+      <footprint>1a_Misc:0806 SMD</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/emc/emc/suppression-filter/catalog/suppression-filter_automotive_mdf2016_en.pdf</datasheet>
+      <description>FERRITE BEAD 27 OHM 0806 1LN</description>
+      <fields>
+        <field name="MPN">MDF2016BSS270C</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Footprint">1a_Misc:0806 SMD</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/emc/emc/suppression-filter/catalog/suppression-filter_automotive_mdf2016_en.pdf</field>
+        <field name="Description">FERRITE BEAD 27 OHM 0806 1LN</field>
+      </fields>
+      <libsource lib="1a_Misc" part="MDF2016BSS270C" description="FERRITE BEAD 27 OHM 0806 1LN"/>
+      <property name="MPN" value="MDF2016BSS270C"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="Sheetname" value="Payload Detect"/>
+      <property name="Sheetfile" value="100068622_payload_detect.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Payload Detect/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/379c71e9-1151-4f75-acc9-451d554c6df6/"/>
+      <tstamps>5ce9aa27-0548-4115-a2d0-40737078093c</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>RES SMD 100 OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="MPN">ERJ-2RKF1000X</field>
+        <field name="Mfr">Panasonic</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 100 OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-2RKF1000X" description="RES SMD 100 OHM 1% 1/10W 0402"/>
+      <property name="MPN" value="ERJ-2RKF1000X"/>
+      <property name="Mfr" value="Panasonic"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="Payload Detect"/>
+      <property name="Sheetfile" value="100068622_payload_detect.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Payload Detect/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/379c71e9-1151-4f75-acc9-451d554c6df6/"/>
+      <tstamps>1ac62001-bc64-4752-b7d9-42b7c0a09f0a</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>DS2431Q+</value>
+      <footprint>Package_DFN_QFN:Maxim_TDFN-6-1EP_3x3mm_P0.95mm_EP1.5x2.3mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/DS2431.pdf</datasheet>
+      <description>EEPROM Memory IC 1Kbit 1-Wire® 2 µs 6-TDFN (3x3)</description>
+      <fields>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="MPN">DS2431Q+T&amp;R</field>
+        <field name="Footprint">Package_DFN_QFN:Maxim_TDFN-6-1EP_3x3mm_P0.95mm_EP1.5x2.3mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/DS2431.pdf</field>
+        <field name="Description">EEPROM Memory IC 1Kbit 1-Wire® 2 µs 6-TDFN (3x3)</field>
+      </fields>
+      <libsource lib="1a_Misc" part="DS2431Q+T&amp;R" description="EEPROM Memory IC 1Kbit 1-Wire® 2 µs 6-TDFN (3x3)"/>
+      <property name="Manufacturer" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="MPN" value="DS2431Q+T&amp;R"/>
+      <property name="Sheetname" value="Payload Detect"/>
+      <property name="Sheetfile" value="100068622_payload_detect.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Payload Detect/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/379c71e9-1151-4f75-acc9-451d554c6df6/"/>
+      <tstamps>92ab6611-dcd7-4ef4-b79e-4cd64576c1c2</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</datasheet>
+      <description>CAP CER 0.1UF 50V X7R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H104ME02D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM155R71H104ME02D" description="CAP CER 0.1UF 50V X7R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM155R71H104ME02D"/>
+      <property name="Sheetname" value="Ideal Diode"/>
+      <property name="Sheetfile" value="100068622_ideal_diode.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Ideal Diode/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/4beb1c69-28e4-4dd5-a4a3-2605565c09fa/"/>
+      <tstamps>98c194f8-d404-46d5-aaf6-eea1ed8e3204</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>NTTFS2D1N04HL</value>
+      <footprint>1a_Misc:WDFN8_3.3_x_3.3_0.65mm_p</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/nttfs2d1n04hl-d.pdf</datasheet>
+      <description>MOSFET N-CH 40V 24A/150A 8PQFN</description>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="MPN">NTTFS2D1N04HLTWG</field>
+        <field name="Footprint">1a_Misc:WDFN8_3.3_x_3.3_0.65mm_p</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/nttfs2d1n04hl-d.pdf</field>
+        <field name="Description">MOSFET N-CH 40V 24A/150A 8PQFN</field>
+      </fields>
+      <libsource lib="1a_Misc" part="NTTFS2D1N04HL" description="MOSFET N-CH 40V 24A/150A 8PQFN"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="MPN" value="NTTFS2D1N04HLTWG"/>
+      <property name="Sheetname" value="Ideal Diode"/>
+      <property name="Sheetfile" value="100068622_ideal_diode.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Ideal Diode/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/4beb1c69-28e4-4dd5-a4a3-2605565c09fa/"/>
+      <tstamps>c05f5388-0134-437f-9c0b-c70748258ff7</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>NCV68261</value>
+      <footprint>1a_Misc:WDFNW6_2x2_0.65p_EP</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/ncv68261-d.pdf</datasheet>
+      <description>Power Switch/Driver 1:1 N-Channel 6-WDFNW (2x2)</description>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="MPN">NCV68261MTWAITBG</field>
+        <field name="Footprint">1a_Misc:WDFNW6_2x2_0.65p_EP</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/ncv68261-d.pdf</field>
+        <field name="Description">Power Switch/Driver 1:1 N-Channel 6-WDFNW (2x2)</field>
+      </fields>
+      <libsource lib="1a_Misc" part="NCV68261" description="Power Switch/Driver 1:1 N-Channel 6-WDFNW (2x2)"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="MPN" value="NCV68261MTWAITBG"/>
+      <property name="Sheetname" value="Ideal Diode"/>
+      <property name="Sheetfile" value="100068622_ideal_diode.kicad_sch"/>
+      <property name="ki_keywords" value="ideal diode high side switch"/>
+      <sheetpath names="/Block Diagram/Ideal Diode/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/4beb1c69-28e4-4dd5-a4a3-2605565c09fa/"/>
+      <tstamps>5610cb88-32bc-4e51-a4c3-cf7b120c87d6</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>~</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP610DL.pdf</datasheet>
+      <description>MOSFET BVDSS: 41V 60V SOT23 T&amp;R</description>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MPN">DMP610DL-13</field>
+        <field name="Mfr">Diodes Incorporated</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP610DL.pdf</field>
+        <field name="Description">MOSFET BVDSS: 41V 60V SOT23 T&amp;R</field>
+      </fields>
+      <libsource lib="1a_Misc" part="DMP610DL" description="MOSFET BVDSS: 41V 60V SOT23 T&amp;R"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MPN" value="DMP610DL-13"/>
+      <property name="Mfr" value="Diodes Incorporated"/>
+      <property name="Sheetname" value="Rail Discharge"/>
+      <property name="Sheetfile" value="100068622_rail_discharge.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Rail Discharge/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/e9fd5157-811a-429b-8cf7-54292ce31d6e/"/>
+      <tstamps>ca7df46a-87b2-49d0-b2bb-d6c2d709811d</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>RES SMD 100 OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="MPN">ERJ-2RKF1000X</field>
+        <field name="Mfr">Panasonic</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 100 OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-2RKF1000X" description="RES SMD 100 OHM 1% 1/10W 0402"/>
+      <property name="MPN" value="ERJ-2RKF1000X"/>
+      <property name="Mfr" value="Panasonic"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Sheetname" value="Rail Discharge"/>
+      <property name="Sheetfile" value="100068622_rail_discharge.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Rail Discharge/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/e9fd5157-811a-429b-8cf7-54292ce31d6e/"/>
+      <tstamps>f3e22e07-06cd-4b2c-9872-4253043883d7</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1.00k</value>
+      <footprint>1a_CommonPassives:R_2512_HandSoldering</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <description>RES 1K OHM 1% 1W 2512 AEC-Q200</description>
+      <fields>
+        <field name="Tolerance">1%</field>
+        <field name="Stocked">Yes</field>
+        <field name="Power">1W</field>
+        <field name="MPN">RMCF2512FT1K00</field>
+        <field name="VendorPN">RMCF2512FT1K00CT-ND</field>
+        <field name="Manufacturer">STACKPOLE ELECTRONICS INC.</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Footprint">1a_CommonPassives:R_2512_HandSoldering</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 1K OHM 1% 1W 2512 AEC-Q200</field>
+      </fields>
+      <libsource lib="1R_Stackpole_2512_2_E96_1P_1.00k_976k" part="1.00k" description="RES 1K OHM 1% 1W 2512 AEC-Q200"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Stocked" value="Yes"/>
+      <property name="Power" value="1W"/>
+      <property name="MPN" value="RMCF2512FT1K00"/>
+      <property name="VendorPN" value="RMCF2512FT1K00CT-ND"/>
+      <property name="Manufacturer" value="STACKPOLE ELECTRONICS INC."/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="Sheetname" value="Rail Discharge"/>
+      <property name="Sheetfile" value="100068622_rail_discharge.kicad_sch"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Rail Discharge/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/e9fd5157-811a-429b-8cf7-54292ce31d6e/"/>
+      <tstamps>5d5d3ab8-6f23-4942-93cf-e70fc4f3c9bd</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100K 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>RES SMD 100K OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF1003X</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 100K OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-2RKF1003X" description="RES SMD 100K OHM 1% 1/10W 0402"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF1003X"/>
+      <property name="Sheetname" value="Rail Discharge"/>
+      <property name="Sheetfile" value="100068622_rail_discharge.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Rail Discharge/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/e9fd5157-811a-429b-8cf7-54292ce31d6e/"/>
+      <tstamps>4345ff8e-5fa3-42cb-b89e-fd0f2638351f</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</datasheet>
+      <description>CAP CER 0.1UF 50V X7R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H104ME02D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM155R71H104ME02D" description="CAP CER 0.1UF 50V X7R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM155R71H104ME02D"/>
+      <property name="Sheetname" value="Data Switches"/>
+      <property name="Sheetfile" value="100068622_data_switches.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Data Switches/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b/"/>
+      <tstamps>9706d337-7c2f-4c3e-9bf6-dab7cf5a92c0</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</datasheet>
+      <description>CAP CER 0.1UF 50V X7R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H104ME02D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM155R71H104ME02D" description="CAP CER 0.1UF 50V X7R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM155R71H104ME02D"/>
+      <property name="Sheetname" value="Data Switches"/>
+      <property name="Sheetfile" value="100068622_data_switches.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Data Switches/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b/"/>
+      <tstamps>a7188ae4-4502-4af9-99ee-bebbd6a72730</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF 50V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</datasheet>
+      <description>CAP CER 0.1UF 50V X7R 0402</description>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H104ME02D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0402</field>
+      </fields>
+      <libsource lib="1a_Murata_Capacitors" part="GCM155R71H104ME02D" description="CAP CER 0.1UF 50V X7R 0402"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MPN" value="GCM155R71H104ME02D"/>
+      <property name="Sheetname" value="Data Switches"/>
+      <property name="Sheetfile" value="100068622_data_switches.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Data Switches/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b/"/>
+      <tstamps>675d7cb5-9091-4cea-921b-657c3ab25496</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100K 1% 0.1W</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</datasheet>
+      <description>RES SMD 100K OHM 1% 1/10W 0402</description>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF1003X</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 100K OHM 1% 1/10W 0402</field>
+      </fields>
+      <libsource lib="1a_Panasonic_Resistors" part="ERJ-2RKF1003X" description="RES SMD 100K OHM 1% 1/10W 0402"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="MPN" value="ERJ-2RKF1003X"/>
+      <property name="Sheetname" value="Data Switches"/>
+      <property name="Sheetfile" value="100068622_data_switches.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Data Switches/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b/"/>
+      <tstamps>35ea224d-7a4a-4b59-98de-78860e7ed816</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>~</value>
+      <footprint>1a_Misc:SOT-143 Maxim</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/max821-max822t.pdf</datasheet>
+      <description>IC SUPERVISOR 1 CHANNEL 2.78V S78OT143-4</description>
+      <fields>
+        <field name="MPN">MAX821UUS+T</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="Footprint">1a_Misc:SOT-143 Maxim</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/max821-max822t.pdf</field>
+        <field name="Description">IC SUPERVISOR 1 CHANNEL 2.78V S78OT143-4</field>
+      </fields>
+      <libsource lib="1a_Misc" part="MAX821UUS+T" description="IC SUPERVISOR 1 CHANNEL 2.78V S78OT143-4"/>
+      <property name="MPN" value="MAX821UUS+T"/>
+      <property name="Manufacturer" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="Sheetname" value="Data Switches"/>
+      <property name="Sheetfile" value="100068622_data_switches.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Data Switches/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b/"/>
+      <tstamps>3171e063-e069-42fd-abc7-e32441ec6c83</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>SN74AUP2G04DRYR</value>
+      <footprint>1a_Misc:QFN-6_1.4x1mm_P0.5mm TI DRY6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74aup3g04.pdf</datasheet>
+      <description>IC INVERTER 3CH 3-INP 8X2SON</description>
+      <fields>
+        <field name="MPN">SN74AUP3G04DQER</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Footprint">1a_Misc:QFN-6_1.4x1mm_P0.5mm TI DRY6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74aup3g04.pdf</field>
+        <field name="Description">IC INVERTER 3CH 3-INP 8X2SON</field>
+      </fields>
+      <libsource lib="1a_Misc" part="SN74AUP2G04DRYR" description="IC INVERTER 3CH 3-INP 8X2SON"/>
+      <property name="MPN" value="SN74AUP3G04DQER"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value="Data Switches"/>
+      <property name="Sheetfile" value="100068622_data_switches.kicad_sch"/>
+      <property name="ki_keywords" value="SN74AUP2G04DRYR"/>
+      <property name="ki_fp_filters" value="DQE8"/>
+      <sheetpath names="/Block Diagram/Data Switches/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b/"/>
+      <tstamps>f2823af7-d471-4e00-8bec-5ab196094ec3</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>~</value>
+      <footprint>1a_Misc:Toshiba UQFN-10_1.4x1.8mm_P0.4mm</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=13632&amp;prodName=TC7USB40MU</datasheet>
+      <description>IC USB SWITCH SPDT DUAL 10UQFN</description>
+      <fields>
+        <field name="MPN">TC7USB40MU</field>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="Footprint">1a_Misc:Toshiba UQFN-10_1.4x1.8mm_P0.4mm</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/docget.jsp?did=13632&amp;prodName=TC7USB40MU</field>
+        <field name="Description">IC USB SWITCH SPDT DUAL 10UQFN</field>
+      </fields>
+      <libsource lib="1a_Misc" part="TC7USB40MU" description="IC USB SWITCH SPDT DUAL 10UQFN"/>
+      <property name="MPN" value="TC7USB40MU"/>
+      <property name="Manufacturer" value="Toshiba Semiconductor and Storage"/>
+      <property name="Sheetname" value="Data Switches"/>
+      <property name="Sheetfile" value="100068622_data_switches.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Data Switches/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b/"/>
+      <tstamps>58d4e7f2-cf86-414c-9dee-207525c73250</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>~</value>
+      <footprint>1a_Misc:FC2QFN-6</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/MAX20336.pdf</datasheet>
+      <description>IC SWITCH DPSTX1 330MOHM 6WLP</description>
+      <fields>
+        <field name="MPN">MAX20336AEFT+</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="Footprint">1a_Misc:FC2QFN-6</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/MAX20336.pdf</field>
+        <field name="Description">IC SWITCH DPSTX1 330MOHM 6WLP</field>
+      </fields>
+      <libsource lib="1a_Misc" part="MAX20336AEFT+" description="IC SWITCH DPSTX1 330MOHM 6WLP"/>
+      <property name="MPN" value="MAX20336AEFT+"/>
+      <property name="Manufacturer" value="Analog Devices Inc./Maxim Integrated"/>
+      <property name="Sheetname" value="Data Switches"/>
+      <property name="Sheetfile" value="100068622_data_switches.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Data Switches/" tstamps="/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b/"/>
+      <tstamps>4967a714-baee-4722-b95e-b9f0942713f8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="1R_Stackpole_2512_2_E96_1P_1.00k_976k" part="1.00k">
+      <description>RES 1K OHM 1% 1W 2512 AEC-Q200</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1.00k</field>
+        <field name="Footprint">1a_CommonPassives:R_2512_HandSoldering</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Description">RES 1K OHM 1% 1W 2512 AEC-Q200</field>
+        <field name="Tolerance">1%</field>
+        <field name="Stocked">Yes</field>
+        <field name="Power">1W</field>
+        <field name="MPN">RMCF2512FT1K00</field>
+        <field name="VendorPN">RMCF2512FT1K00CT-ND</field>
+        <field name="Manufacturer">STACKPOLE ELECTRONICS INC.</field>
+        <field name="Vendor">Digikey</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Littelfuse" part="SMF26A">
+      <description>TVS SOD123FL 26V 200W UNIDIR</description>
+      <docs>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">26VWM</field>
+        <field name="Footprint">1a_Littelfuse:SOD-123FL</field>
+        <field name="Datasheet">https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf</field>
+        <field name="Description">TVS SOD123FL 26V 200W UNIDIR</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="MPN">SMF26A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Littelfuse" part="SMF3.3">
+      <description>TVS DIODE 3.3VWM 6.8VC SOD123FL</description>
+      <docs>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf3_3_datasheet.pdf.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">3.3VWM</field>
+        <field name="Footprint">1a_Littelfuse:SOD-123FL</field>
+        <field name="Datasheet">https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf3_3_datasheet.pdf.pdf</field>
+        <field name="Description">TVS DIODE 3.3VWM 6.8VC SOD123FL</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="MPN">SMF3.3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_MillMax" part="829-22-001-20-001101">
+      <description>Pogo pin header, 1-pin, 0.1" pitch, right-angle, 55 mil stroke</description>
+      <docs>https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</docs>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_MillMax:829-22-001-20-001101</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</field>
+        <field name="Description">Pogo pin header, 1-pin, 0.1" pitch, right-angle, 55 mil stroke</field>
+        <field name="MPN">829-22-001-20-001101</field>
+        <field name="Manufacturer">Mill-Max</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_MillMax" part="829-22-001-20-002101">
+      <description>Pogo pin header, 1-pin, 0.1" pitch, right-angle, 90 mil stroke</description>
+      <docs>https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</docs>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_MillMax:829-22-001-20-002101</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</field>
+        <field name="Description">Pogo pin header, 1-pin, 0.1" pitch, right-angle, 90 mil stroke</field>
+        <field name="MPN">829-22-001-20-002101</field>
+        <field name="Manufacturer">Mill-Max</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_MillMax" part="829-22-005-20-001101">
+      <description>Pogo pin header, 9-pin, 0.1" pitch, right-angle, 55 mil stroke</description>
+      <docs>https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</docs>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_MillMax:829-22-005-20-001101</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/273/MMMC_S_A0006083364_1-2558772.pdf</field>
+        <field name="Description">Pogo pin header, 9-pin, 0.1" pitch, right-angle, 55 mil stroke</field>
+        <field name="MPN">829-22-005-20-001101</field>
+        <field name="Manufacturer">Mill-Max</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="C2012X5R1V226M125AC">
+      <description>CAP CER 22UF 35V X5R 0805</description>
+      <docs>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF 35V</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf</field>
+        <field name="Description">CAP CER 22UF 35V X5R 0805</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="MPN">C2012X5R1V226M125AC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="DMP610DL">
+      <description>MOSFET BVDSS: 41V 60V SOT23 T&amp;R</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DMP610DL.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DMP610DL.pdf</field>
+        <field name="Description">MOSFET BVDSS: 41V 60V SOT23 T&amp;R</field>
+        <field name="Mfr">Diodes Incorporated</field>
+        <field name="MPN">DMP610DL-13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="DS2431Q+T&amp;R">
+      <description>EEPROM Memory IC 1Kbit 1-Wire® 2 µs 6-TDFN (3x3)</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/DS2431.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS2431Q+</field>
+        <field name="Footprint">Package_DFN_QFN:Maxim_TDFN-6-1EP_3x3mm_P0.95mm_EP1.5x2.3mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/DS2431.pdf</field>
+        <field name="Description">EEPROM Memory IC 1Kbit 1-Wire® 2 µs 6-TDFN (3x3)</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="MPN">DS2431Q+T&amp;R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="IO" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="Fiducial_40mil_mask_60mil">
+      <description>Fiducial Marker</description>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Footprint">1a_TestPoints:Fiducial_Cu0.040_Mask0.060</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fiducial Marker</field>
+      </fields>
+    </libpart>
+    <libpart lib="1a_Misc" part="Hand_Solder_Pad_100x80_mil">
+      <description>100x80 pad for hand-soldering jumper wires</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_100x80_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description">100x80 pad for hand-soldering jumper wires</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="Hand_Solder_Pad_200x100_mil">
+      <description>200x100 pad for hand-soldering jumper wires</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_Misc:Hand_Solder_Pad_200x100_mil</field>
+        <field name="Datasheet"/>
+        <field name="Description">200x100 pad for hand-soldering jumper wires</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="MAX20336AEFT+">
+      <description>IC SWITCH DPSTX1 330MOHM 6WLP</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/MAX20336.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_Misc:FC2QFN-6</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/MAX20336.pdf</field>
+        <field name="Description">IC SWITCH DPSTX1 330MOHM 6WLP</field>
+        <field name="MPN">MAX20336AEFT+</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM2" type="bidirectional"/>
+        <pin num="2" name="COM1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCCEN" type="power_in"/>
+        <pin num="5" name="NO1" type="bidirectional"/>
+        <pin num="6" name="NO2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="MAX25254AFDE/VY+">
+      <description>Dual 36V input, 0.8-14V output, 8A synchronous buck converter</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/max25254-max25255.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX25254AFDE/VY+</field>
+        <field name="Footprint">1a_Misc:F234A5FY+1</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/max25254-max25255.pdf</field>
+        <field name="Description">Dual 36V input, 0.8-14V output, 8A synchronous buck converter</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+        <field name="MPN">MAX25254AFDE/VY+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SYNC" type="input"/>
+        <pin num="2" name="EN2" type="input"/>
+        <pin num="3" name="BST2" type="input"/>
+        <pin num="4" name="LX2" type="output"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="PGND2" type="power_in"/>
+        <pin num="7" name="SUP2" type="power_in"/>
+        <pin num="8" name="SUP1" type="power_in"/>
+        <pin num="9" name="PGND1" type="power_in"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="LX1" type="output"/>
+        <pin num="12" name="BST1" type="input"/>
+        <pin num="13" name="EN1" type="input"/>
+        <pin num="14" name="SYNCOUT" type="output"/>
+        <pin num="15" name="PGOOD1" type="output"/>
+        <pin num="16" name="OUT1/FB1" type="input"/>
+        <pin num="17" name="TEMP" type="output"/>
+        <pin num="18" name="VEA" type="bidirectional"/>
+        <pin num="19" name="AGND" type="power_in"/>
+        <pin num="20" name="BIAS" type="power_out"/>
+        <pin num="21" name="EXTVCC" type="power_in"/>
+        <pin num="22" name="OUT2/FB2" type="input"/>
+        <pin num="23" name="PGOOD2" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="MAX821UUS+T">
+      <description>IC SUPERVISOR 1 CHANNEL 2.78V S78OT143-4</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/max821-max822t.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_Misc:SOT-143 Maxim</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/max821-max822t.pdf</field>
+        <field name="Description">IC SUPERVISOR 1 CHANNEL 2.78V S78OT143-4</field>
+        <field name="MPN">MAX821UUS+T</field>
+        <field name="Manufacturer">Analog Devices Inc./Maxim Integrated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="~{RESET}" type="output"/>
+        <pin num="3" name="SRT" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="MDF2016BSS270C">
+      <description>FERRITE BEAD 27 OHM 0806 1LN</description>
+      <docs>https://product.tdk.com/system/files/dam/doc/product/emc/emc/suppression-filter/catalog/suppression-filter_automotive_mdf2016_en.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">27 OHM @2MHZ</field>
+        <field name="Footprint">1a_Misc:0806 SMD</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/emc/emc/suppression-filter/catalog/suppression-filter_automotive_mdf2016_en.pdf</field>
+        <field name="Description">FERRITE BEAD 27 OHM 0806 1LN</field>
+        <field name="MPN">MDF2016BSS270C</field>
+        <field name="Manufacturer">TDK Corporation</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="NCP730BMT330TBG">
+      <description>IC REG LINEAR 3.3V 150MA 6WDFN</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/ncp730-d.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_Misc:WDFN6_2x2_0.65p_1.72x1.12mm_EP</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/ncp730-d.pdf</field>
+        <field name="Description">IC REG LINEAR 3.3V 150MA 6WDFN</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="MPN">NCP730BMT330TBG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="PG" type="output"/>
+        <pin num="6" name="IN" type="power_in"/>
+        <pin num="7" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="NCV68261">
+      <description>Power Switch/Driver 1:1 N-Channel 6-WDFNW (2x2)</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/ncv68261-d.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_Misc:WDFNW6_2x2_0.65p_EP</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/ncv68261-d.pdf</field>
+        <field name="Description">Power Switch/Driver 1:1 N-Channel 6-WDFNW (2x2)</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="MPN">NCV68261MTWAITBG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="input"/>
+        <pin num="2" name="G" type="output"/>
+        <pin num="3" name="D" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="IN" type="power_in"/>
+        <pin num="7" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="NTTFS2D1N04HL">
+      <description>MOSFET N-CH 40V 24A/150A 8PQFN</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/nttfs2d1n04hl-d.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_Misc:WDFN8_3.3_x_3.3_0.65mm_p</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/nttfs2d1n04hl-d.pdf</field>
+        <field name="Description">MOSFET N-CH 40V 24A/150A 8PQFN</field>
+        <field name="Manufacturer">onsemi</field>
+        <field name="MPN">NTTFS2D1N04HLTWG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="bidirectional"/>
+        <pin num="2" name="S" type="bidirectional"/>
+        <pin num="3" name="S" type="bidirectional"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="PESD5V0C2UM">
+      <description>TVS DIODE 5VWM 3.4VC DFN1006-3</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESD5V0C2UM.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">Package_DFN_QFN:Diodes_DFN1006-3</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD5V0C2UM.pdf</field>
+        <field name="Description">TVS DIODE 5VWM 3.4VC DFN1006-3</field>
+        <field name="MPN">PESD5V0C2UM</field>
+        <field name="Manufacturer">Nexperia</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K2" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="SN74AUP2G04DRYR">
+      <description>IC INVERTER 3CH 3-INP 8X2SON</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74aup3g04.pdf</docs>
+      <footprints>
+        <fp>DQE8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74AUP2G04DRYR</field>
+        <field name="Footprint">1a_Misc:QFN-6_1.4x1mm_P0.5mm TI DRY6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74aup3g04.pdf</field>
+        <field name="Description">IC INVERTER 3CH 3-INP 8X2SON</field>
+        <field name="MPN">SN74AUP3G04DQER</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="1Y" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="TC7USB40MU">
+      <description>IC USB SWITCH SPDT DUAL 10UQFN</description>
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=13632&amp;prodName=TC7USB40MU</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">1a_Misc:Toshiba UQFN-10_1.4x1.8mm_P0.4mm</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/docget.jsp?did=13632&amp;prodName=TC7USB40MU</field>
+        <field name="Description">IC USB SWITCH SPDT DUAL 10UQFN</field>
+        <field name="MPN">TC7USB40MU</field>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1D+" type="bidirectional"/>
+        <pin num="2" name="2D+" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D-" type="bidirectional"/>
+        <pin num="6" name="2D-" type="bidirectional"/>
+        <pin num="7" name="1D-" type="bidirectional"/>
+        <pin num="8" name="~{OE}" type="input"/>
+        <pin num="9" name="VCC" type="power_in"/>
+        <pin num="10" name="S" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="TNPW040234K4BEED">
+      <description>RES 34.4K OHM 0.1% 1/16W 0402</description>
+      <docs>https://www.vishay.com/docs/28758/tnpw_e3.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">34.4K 0.1% 1/16W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://www.vishay.com/docs/28758/tnpw_e3.pdf</field>
+        <field name="Description">RES 34.4K OHM 0.1% 1/16W 0402</field>
+        <field name="Manufacturer">Vishay Dale</field>
+        <field name="MPN">TNPW040234K4BEED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Misc" part="XEL4030-471MEC">
+      <description>0.47uH shielded inductor, 15.6A, 4.6mOhm DCR</description>
+      <docs>https://www.mouser.com/datasheet/2/597/xel4030-1223874.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">0.47uH</field>
+        <field name="Footprint">1a_Misc:XEL4030-3.1mm</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/597/xel4030-1223874.pdf</field>
+        <field name="Description">0.47uH shielded inductor, 15.6A, 4.6mOhm DCR</field>
+        <field name="Manufacturer">Coilcraft</field>
+        <field name="MPN">XEL4030-471MEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Murata_Capacitors" part="GCM1555C1H100FA16D">
+      <description>CAP CER 10PF 50V C0G/NP0 0402</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H100FA16-01.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10pF 50V</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM1555C1H100FA16-01.pdf</field>
+        <field name="Description">CAP CER 10PF 50V C0G/NP0 0402</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM1555C1H100FA16D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Murata_Capacitors" part="GCM155R71H103KA55">
+      <description>CAP CER 10000PF 50V X7R 0402</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H103KA55-01.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10000pF 50V</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H103KA55-01.pdf</field>
+        <field name="Description">CAP CER 10000PF 50V X7R 0402</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H103KA55D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Murata_Capacitors" part="GCM155R71H104ME02D">
+      <description>CAP CER 0.1UF 50V X7R 0402</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1uF 50V</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0402</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H104ME02D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Murata_Capacitors" part="GCM155R71H472KA37J">
+      <description>CAP CER 4700PF 50V X7R 0402</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H472KA37-01.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4700pF 50V</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H472KA37-01.pdf</field>
+        <field name="Description">CAP CER 4700PF 50V X7R 0402</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GCM155R71H472KA37J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Murata_Capacitors" part="GRM155R60J106ME05D">
+      <description>CAP CER 10UF 6.3V X5R 0402</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME05-01A.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF 6.3V</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R60J106ME05-01A.pdf</field>
+        <field name="Description">CAP CER 10UF 6.3V X5R 0402</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM155R60J106ME05D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Murata_Capacitors" part="GRM155R6YA225KE11D">
+      <description>CAP CER 2.2UF 35V X5R 0402</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R6YA225KE11-01.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2.2uF 35V</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R6YA225KE11-01.pdf</field>
+        <field name="Description">CAP CER 2.2UF 35V X5R 0402</field>
+        <field name="MPN">GRM155R6YA225KE11D</field>
+        <field name="Manufacturer">Murata Electronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Murata_Capacitors" part="GRM21BR61E226ME44L">
+      <description>CAP CER 22UF 25V X5R 0805</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF 25V</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</field>
+        <field name="Description">CAP CER 22UF 25V X5R 0805</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM21BR61E226ME44L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Murata_Capacitors" part="GRM21BR61H106KE43L">
+      <description>CAP CER 10UF 50V X5R 0805</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF 50V</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf</field>
+        <field name="Description">CAP CER 10UF 50V X5R 0805</field>
+        <field name="MPN">GRM21BR61H106KE43L</field>
+        <field name="Manufacturer">Murata Electronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Murata_Capacitors" part="GRM21BZ71H475KE15L">
+      <description>CAP CER 4.7UF 50V X7R 0805</description>
+      <docs>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71H475KE15-01.pdf</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7uF 50V</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71H475KE15-01.pdf</field>
+        <field name="Description">CAP CER 4.7UF 50V X7R 0805</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MPN">GRM21BZ71H475KE15L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Panasonic_Resistors" part="ERJ-2RKF1000X">
+      <description>RES SMD 100 OHM 1% 1/10W 0402</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100 1% 0.1W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 100 OHM 1% 1/10W 0402</field>
+        <field name="MPN">ERJ-2RKF1000X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Panasonic_Resistors" part="ERJ-2RKF1003X">
+      <description>RES SMD 100K OHM 1% 1/10W 0402</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100K 1% 0.1W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 100K OHM 1% 1/10W 0402</field>
+        <field name="MPN">ERJ-2RKF1003X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Panasonic_Resistors" part="ERJ-2RKF1543X">
+      <description>RES SMD 154K OHM 1% 1/10W 0402</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">154K 1% 0.1W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 154K OHM 1% 1/10W 0402</field>
+        <field name="MPN">ERJ-2RKF1543X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Panasonic_Resistors" part="ERJ-2RKF5762X">
+      <description>RES SMD 57.6K OHM 1% 1/10W 0402</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">57.6K 1% 0.1W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 57.6K OHM 1% 1/10W 0402</field>
+        <field name="MPN">ERJ-2RKF5762X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Panasonic_Resistors" part="ERJ-2RKF9092X">
+      <description>RES SMD 90.9K OHM 1% 1/10W 0402</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">90.9K 1% 0.1W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf</field>
+        <field name="Description">RES SMD 90.9K OHM 1% 1/10W 0402</field>
+        <field name="MPN">ERJ-2RKF9092X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1a_Panasonic_Resistors" part="ERJ-U02F1102X">
+      <description>RES 11K OHM 1% 1/10W 0402</description>
+      <docs>https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">11K 1% 0.1W</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet">https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf</field>
+        <field name="Description">RES 11K OHM 1% 1/10W 0402</field>
+        <field name="MPN">ERJ-U02F1102X</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="NetTie_2">
+      <description>Net tie, 2 pins</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Net*Tie*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NT</field>
+        <field name="Value">NetTie_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Net tie, 2 pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Jumper, 2-pole, closed/bridged</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Jumper, 2-pole, open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="1R_Stackpole_2512_2_E96_1P_1.00k_976k">
+      <uri>${SUPI_SYMBOL_DIR}/R_Stackpole_2512_2_E96_1P_1.00k_976k.kicad_sym</uri>
+    </library>
+    <library logical="1a_Littelfuse">
+      <uri>${SUPI_SYMBOL_DIR}/1a_Littelfuse.kicad_sym</uri>
+    </library>
+    <library logical="1a_MillMax">
+      <uri>${SUPI_SYMBOL_DIR}/1a_MillMax.kicad_sym</uri>
+    </library>
+    <library logical="1a_Misc">
+      <uri>${SUPI_SYMBOL_DIR}/1a_Misc.kicad_sym</uri>
+    </library>
+    <library logical="1a_Murata_Capacitors">
+      <uri>${SUPI_SYMBOL_DIR}/Murata_Capacitors.kicad_sym</uri>
+    </library>
+    <library logical="1a_Panasonic_Resistors">
+      <uri>${SUPI_SYMBOL_DIR}/Panasonic_Resistors.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Block Diagram/DETECT">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="P3" pin="5" pinfunction="5" pintype="input"/>
+    </net>
+    <net code="2" name="/Block Diagram/Data Switches/GPIO_DOWN_0">
+      <node ref="P15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="COM1" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/Block Diagram/Data Switches/GPIO_DOWN_1">
+      <node ref="P14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="COM2" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/Block Diagram/Data Switches/RESET">
+      <node ref="U7" pin="3" pinfunction="2A" pintype="input"/>
+      <node ref="U7" pin="6" pinfunction="1Y" pintype="output"/>
+      <node ref="U8" pin="8" pinfunction="~{OE}" pintype="input"/>
+    </net>
+    <net code="5" name="/Block Diagram/Data Switches/USB_DOWN_DM">
+      <node ref="P13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="7" pinfunction="1D-" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/Block Diagram/Data Switches/USB_DOWN_DP">
+      <node ref="P12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="1D+" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/Block Diagram/GPIO0">
+      <node ref="P3" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="U9" pin="5" pinfunction="NO1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Block Diagram/GPIO1">
+      <node ref="P3" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="U9" pin="6" pinfunction="NO2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Block Diagram/PGOOD1">
+      <node ref="P6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="PGOOD1" pintype="output"/>
+    </net>
+    <net code="10" name="/Block Diagram/PGOOD2">
+      <node ref="P7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="PGOOD2" pintype="output"/>
+    </net>
+    <net code="11" name="/Block Diagram/Power Supplies/P3V3_AUX">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U6" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="9" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="12" name="/Block Diagram/USB_D+">
+      <node ref="P3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="K2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/Block Diagram/USB_D-">
+      <node ref="P3" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U1" pin="1" pinfunction="K1" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Block Diagram/VBATT">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="P1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="P5" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="bidirectional"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="S" pintype="input"/>
+      <node ref="U5" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="15" name="/Block Diagram/VOUT1">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="P10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/Block Diagram/VOUT2">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="P8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="NT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="NT2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="P17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="P20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="EP" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="PGND2" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="PGND1" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="EP" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="EP" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="10" pinfunction="S" pintype="input"/>
+      <node ref="U8" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="18" name="GNDA">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="NT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="SYNC" pintype="input"/>
+      <node ref="U3" pin="19" pinfunction="AGND" pintype="power_in"/>
+    </net>
+    <net code="19" name="GNDD">
+      <node ref="NT2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P24" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(JP1-A)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="OUT1/FB1" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(JP1-B)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(JP2-A)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="OUT2/FB2" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(JP2-B)">
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(JP3-B)">
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(JP4-B)">
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(JP5-B)">
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(L3-Pad2)">
+      <node ref="L3" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Q1-G)">
+      <node ref="Q1" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="G" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(Q2-D)">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(Q2-G)">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(U3-BIAS)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="BIAS" pintype="power_out"/>
+    </net>
+    <net code="32" name="Net-(U3-BST1)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="BST1" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U3-BST2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="BST2" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(U3-EXTVCC)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="EXTVCC" pintype="power_in"/>
+    </net>
+    <net code="35" name="Net-(U3-LX1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="LX1" pintype="output"/>
+    </net>
+    <net code="36" name="Net-(U3-LX2)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="LX2" pintype="output"/>
+    </net>
+    <net code="37" name="Net-(U4-IO)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="IO" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(U6-~{RESET})">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="~{RESET}" pintype="output"/>
+      <node ref="U7" pin="1" pinfunction="1A" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(U7-2Y)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="2Y" pintype="output"/>
+      <node ref="U9" pin="4" pinfunction="VCCEN" pintype="power_in"/>
+    </net>
+    <net code="40" name="VBATT_PROT">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="P16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D" pintype="bidirectional"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="IN" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="EN1" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="EN2" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="SUP2" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="SUP1" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="41" name="unconnected-(U2-NC-Pad2)">
+      <node ref="U2" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U2-PG-Pad5)">
+      <node ref="U2" pin="5" pinfunction="PG" pintype="output+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U3-NC-Pad5)">
+      <node ref="U3" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U3-NC-Pad10)">
+      <node ref="U3" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U3-SYNCOUT-Pad14)">
+      <node ref="U3" pin="14" pinfunction="SYNCOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U3-TEMP-Pad17)">
+      <node ref="U3" pin="17" pinfunction="TEMP" pintype="output+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U3-VEA-Pad18)">
+      <node ref="U3" pin="18" pinfunction="VEA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U4-NC-Pad1)">
+      <node ref="U4" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U4-NC-Pad4)">
+      <node ref="U4" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U4-NC-Pad5)">
+      <node ref="U4" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U4-NC-Pad6)">
+      <node ref="U4" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U6-SRT-Pad3)">
+      <node ref="U6" pin="3" pinfunction="SRT" pintype="input+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U8-2D+-Pad2)">
+      <node ref="U8" pin="2" pinfunction="2D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U8-2D--Pad6)">
+      <node ref="U8" pin="6" pinfunction="2D-" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

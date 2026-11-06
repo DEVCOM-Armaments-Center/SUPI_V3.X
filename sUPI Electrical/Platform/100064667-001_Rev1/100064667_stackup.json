@@ -1,0 +1,291 @@
+{
+   "LayerStackup": {
+      "number_of_rows": 23,
+      "number_of_cols": 6,
+      "Rows": {
+         "Row 1": [
+            "FRONT SILKSCREEN",
+            0,
+            "",
+            "SILKSCREEN",
+            "xx-F_SILK.GBR",
+            0.0,
+            0
+         ],
+         "Row 2": [
+            "FRONT SOLDERMASK",
+            0,
+            "",
+            "SOLDERMASK",
+            "xx-F_MASK.GBR",
+            0.8,
+            4.5
+         ],
+         "Row 3": [
+            "FRONT COPPER",
+            1,
+            "",
+            "1 OZ COPPER",
+            "xx-F_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 4": [
+            "370HR  PP106",
+            0,
+            "",
+            "PREPREG",
+            "",
+            2.4,
+            3.81
+         ],
+         "Row 5": [
+            "370HR  PP106",
+            0,
+            "",
+            "PREPREG",
+            "",
+            2.4,
+            3.81
+         ],
+         "Row 6": [
+            "INNER 1 COPPER",
+            2,
+            "",
+            "1 OZ COPPER",
+            "xx-IN1_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 7": [
+            "370HR 1x7628",
+            0,
+            "",
+            "PREPREG",
+            "",
+            8.0,
+            4.34
+         ],
+         "Row 8": [
+            "INNER 2 COPPER",
+            3,
+            "",
+            "1 OZ COPPER",
+            "xx-IN2_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 9": [
+            "370HR  PP2113",
+            0,
+            "",
+            "PREPREG",
+            "",
+            4.0,
+            4.09
+         ],
+         "Row 10": [
+            "370HR  PP2113",
+            0,
+            "",
+            "PREPREG",
+            "",
+            4.0,
+            4.09
+         ],
+         "Row 11": [
+            "INNER 3 COPPER",
+            4,
+            "",
+            "1 OZ COPPER",
+            "xx-IN3_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 12": [
+            "370HR 1x7628",
+            0,
+            "",
+            "PREPREG",
+            "",
+            8.0,
+            4.34
+         ],
+         "Row 13": [
+            "INNER 4 COPPER",
+            5,
+            "",
+            "1 OZ COPPER",
+            "xx-IN4_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 14": [
+            "370HR  PP2113",
+            0,
+            "",
+            "PREPREG",
+            "",
+            4.0,
+            4.09
+         ],
+         "Row 15": [
+            "370HR  PP2113",
+            0,
+            "",
+            "PREPREG",
+            "",
+            4.0,
+            4.09
+         ],
+         "Row 16": [
+            "INNER 5 COPPER",
+            6,
+            "",
+            "1 OZ COPPER",
+            "xx-IN5_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 17": [
+            "370HR 1x7628",
+            0,
+            "",
+            "PREPREG",
+            "",
+            8.0,
+            4.34
+         ],
+         "Row 18": [
+            "INNER 6 COPPER",
+            7,
+            "",
+            "1 OZ COPPER",
+            "xx-IN6_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 19": [
+            "370HR  PP106",
+            0,
+            "",
+            "PREPREG",
+            "",
+            2.4,
+            3.81
+         ],
+         "Row 20": [
+            "370HR  PP106",
+            0,
+            "",
+            "PREPREG",
+            "",
+            2.4,
+            3.81
+         ],
+         "Row 21": [
+            "BACK COPPER",
+            8,
+            "",
+            "1 OZ COPPER",
+            "xx-B_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 22": [
+            "BACK SOLDERMASK",
+            0,
+            "",
+            "SOLDERMASK",
+            "xx-B_MASK.GBR",
+            0.8,
+            4.5
+         ],
+         "Row 23": [
+            "BACK SILKSCREEN",
+            0,
+            "",
+            "SILKSCREEN",
+            "xx-B_SILK.GBR",
+            0.0,
+            0
+         ],
+         "outline": [
+            "BOARD OUTLINE",
+            0,
+            "",
+            "OUTLINE",
+            "xx_EDGECUTS.GBR",
+            0.0,
+            0
+         ],
+         "pth": [
+            "PLATED THRU HOLES",
+            0,
+            "",
+            "PTH",
+            "xx_PTH.DRL",
+            0.0,
+            0
+         ],
+         "npth": [
+            "NON-PLATED THRU HOLES",
+            0,
+            "",
+            "NPTH",
+            "xx_NPTH.DRL",
+            0.0,
+            0
+         ]
+      },
+      "Parameters": {
+         "units": "mils",
+         "body_text_size": 36,
+         "body_text_width": 5,
+         "header_height": 300.0,
+         "header_text_size": 80.0,
+         "header_text_width": 10.0,
+         "header_text_string": "LAYER STACKUP AND FILENAME",
+         "inside_border_width": 8,
+         "outside_border_width": 15,
+         "row_height": 165.0,
+         "subheader_height": 300.0,
+         "subheader_text_size": 55.0,
+         "subheader_text_width": 8.0,
+         "table_origin_x": 0.0,
+         "table_origin_y": 0.0
+      },
+      "Columns": {
+         "Column 1": {
+            "name": "LAYER NAME",
+            "width": 1000,
+            "alignment": -1
+         },
+         "Column 2": {
+            "name": "COPPER LAYER\nNUMBER",
+            "width": 800,
+            "alignment": 0
+         },
+         "Column 3": {
+            "name": "TYPE",
+            "width": 857,
+            "alignment": -1
+         },
+         "Column 4": {
+            "name": "FILENAME",
+            "width": 1800,
+            "alignment": -1
+         },
+         "Column 5": {
+            "name": "THICKNESS\n(mils)",
+            "width": 600,
+            "alignment": 0
+         },
+         "Column 6": {
+            "name": "Er",
+            "width": 300,
+            "alignment": 0
+         }
+      }
+   }
+}

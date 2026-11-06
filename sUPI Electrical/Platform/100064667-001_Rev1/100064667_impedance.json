@@ -1,0 +1,65 @@
+{
+   "Impedance": {
+      "number_of_rows": 1,
+      "number_of_cols": 6,
+      "Rows": {
+         "Row 1": [
+            "5",
+            "4, 6",
+            "90",
+            "5.4",
+            "6.8",
+            "DIFF COPLANAR WAVEGUIDE, 2 PLANES"
+         ]
+      },
+      "Parameters": {
+         "units": "mils",
+         "body_text_size": 40.0,
+         "body_text_width": 5.0,
+         "header_height": 300.0,
+         "header_text_size": 80.0,
+         "header_text_width": 10.0,
+         "header_text_string": "IMPEDANCE",
+         "inside_border_width": 8.0,
+         "outside_border_width": 15.0,
+         "row_height": 165.0,
+         "subheader_height": 300.0,
+         "subheader_text_size": 55.0,
+         "subheader_text_width": 8.0,
+         "table_origin_x": 0.0,
+         "table_origin_y": 0.0
+      },
+      "Columns": {
+         "Column 1": {
+            "name": "TRACE\nLAYER",
+            "width": 650,
+            "alignment": 0
+         },
+         "Column 2": {
+            "name": "REF PLANE\nLAYER",
+            "width": 650,
+            "alignment": 0
+         },
+         "Column 3": {
+            "name": "IMPEDANCE\n(OHMS)",
+            "width": 800,
+            "alignment": 0
+         },
+         "Column 4": {
+            "name": "TRACE WIDTH\n(MILS)",
+            "width": 760,
+            "alignment": 0
+         },
+         "Column 5": {
+            "name": "TRACE SPACE\n(MILS)",
+            "width": 760,
+            "alignment": 0
+         },
+         "Column 6": {
+            "name": "TYPE",
+            "width": 1300,
+            "alignment": -1
+         }
+      }
+   }
+}

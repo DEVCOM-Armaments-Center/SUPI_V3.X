@@ -1,0 +1,183 @@
+{
+   "LayerStackup": {
+      "number_of_rows": 11,
+      "number_of_cols": 6,
+      "Rows": {
+         "Row 1": [
+            "FRONT SILKSCREEN",
+            0,
+            "",
+            "SILKSCREEN",
+            "100043659-F_SILKSCREEN.GBR",
+            0.0,
+            0
+         ],
+         "Row 2": [
+            "FRONT SOLDERMASK",
+            0,
+            "",
+            "SOLDERMASK",
+            "100043659-F_MASK.GBR",
+            0.8,
+            4.5
+         ],
+         "Row 3": [
+            "FRONT COPPER",
+            1,
+            "",
+            "1 OZ COPPER",
+            "100043659-F_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 4": [
+            "370HR 2x2116",
+            0,
+            "",
+            "PREPREG",
+            "",
+            8.0,
+            4.32
+         ],
+         "Row 5": [
+            "INNER 1 COPPER",
+            2,
+            "",
+            "1 OZ COPPER",
+            "100043659-IN1_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 6": [
+            "370HR 5x7628/1x2116",
+            0,
+            "",
+            "PREPREG",
+            "",
+            39.0,
+            4.4
+         ],
+         "Row 7": [
+            "INNER 2 COPPER",
+            3,
+            "",
+            "1 OZ COPPER",
+            "100043659-IN2_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 8": [
+            "370HR 2x2116",
+            0,
+            "",
+            "PREPREG",
+            "",
+            8.0,
+            4.32
+         ],
+         "Row 9": [
+            "BACK COPPER",
+            4,
+            "",
+            "1 OZ COPPER",
+            "100043659-B_CU.GBR",
+            1.4,
+            0
+         ],
+         "Row 10": [
+            "BACK SOLDERMASK",
+            0,
+            "",
+            "SOLDERMASK",
+            "100043659-B_MASK.GBR",
+            0.8,
+            4.5
+         ],
+         "Row 11": [
+            "BACK SILKSCREEN",
+            0,
+            "",
+            "SILKSCREEN",
+            "100043659-B_SILKSCREEN.GBR",
+            0.0,
+            0
+         ],
+         "outline": [
+            "BOARD OUTLINE",
+            0,
+            "",
+            "OUTLINE",
+            "100043659-EDGE_CUTS.GBR",
+            0.0,
+            0
+         ],
+         "pth": [
+            "PLATED THRU HOLES",
+            0,
+            "",
+            "PTH",
+            "100043659-PTH.DRL",
+            0.0,
+            0
+         ],
+         "npth": [
+            "NON-PLATED THRU HOLES",
+            0,
+            "",
+            "NPTH",
+            "100043659-NPTH.DRL",
+            0.0,
+            0
+         ]
+      },
+      "Parameters": {
+         "units": "mils",
+         "body_text_size": 36,
+         "body_text_width": 5,
+         "header_height": 300.0,
+         "header_text_size": 80.0,
+         "header_text_width": 10.0,
+         "header_text_string": "LAYER STACKUP AND FILENAME",
+         "inside_border_width": 8,
+         "outside_border_width": 15,
+         "row_height": 165.0,
+         "subheader_height": 300.0,
+         "subheader_text_size": 55.0,
+         "subheader_text_width": 8.0,
+         "table_origin_x": 0.0,
+         "table_origin_y": 0.0
+      },
+      "Columns": {
+         "Column 1": {
+            "name": "LAYER NAME",
+            "width": 1000,
+            "alignment": -1
+         },
+         "Column 2": {
+            "name": "COPPER LAYER\nNUMBER",
+            "width": 800,
+            "alignment": 0
+         },
+         "Column 3": {
+            "name": "TYPE",
+            "width": 857,
+            "alignment": -1
+         },
+         "Column 4": {
+            "name": "FILENAME",
+            "width": 1800,
+            "alignment": -1
+         },
+         "Column 5": {
+            "name": "THICKNESS\n(mils)",
+            "width": 600,
+            "alignment": 0
+         },
+         "Column 6": {
+            "name": "Er",
+            "width": 300,
+            "alignment": 0
+         }
+      }
+   }
+}

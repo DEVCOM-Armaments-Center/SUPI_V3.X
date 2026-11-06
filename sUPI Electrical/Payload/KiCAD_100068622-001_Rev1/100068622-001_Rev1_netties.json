@@ -1,0 +1,66 @@
+{
+   "NetTies": {
+      "number_of_rows": 2,
+      "number_of_cols": 5,
+      "Rows": {
+         "Row 1": [
+            "NT1",
+            "2237.00",
+            "1166.00",
+            "B.Cu",
+            "GNDA, GND"
+         ],
+         "Row 2": [
+            "NT2",
+            "3563.00",
+            "1200.00",
+            "F.Cu",
+            "GNDD, GND"
+         ]
+      },
+      "Parameters": {
+         "units": "mils",
+         "body_text_size": 30.0,
+         "body_text_width": 5.0,
+         "header_height": 150.0,
+         "header_text_size": 50.0,
+         "header_text_width": 10.0,
+         "header_text_string": "NET TIE SHORTS",
+         "inside_border_width": 8.0,
+         "outside_border_width": 15.0,
+         "row_height": 70.0,
+         "subheader_height": 150.0,
+         "subheader_text_size": 40.0,
+         "subheader_text_width": 8.0,
+         "table_origin_x": 0.0,
+         "table_origin_y": 0.0
+      },
+      "Columns": {
+         "Column 1": {
+            "name": "NETTIE\nNAME",
+            "width": 400,
+            "alignment": 0
+         },
+         "Column 2": {
+            "name": "X POS\nMILS",
+            "width": 400,
+            "alignment": 0
+         },
+         "Column 3": {
+            "name": "Y POS\nMILS",
+            "width": 400,
+            "alignment": 0
+         },
+         "Column 4": {
+            "name": "LAYER",
+            "width": 400,
+            "alignment": 0
+         },
+         "Column 5": {
+            "name": "NETS SHORTED",
+            "width": 1200,
+            "alignment": -1
+         }
+      }
+   }
+}

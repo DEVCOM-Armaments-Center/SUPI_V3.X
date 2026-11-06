@@ -1,0 +1,100 @@
+{
+   "FabricationNotes": {
+      "font_size": 50.0,
+      "font_width": 7.0,
+      "notes_x": 700.0,
+      "notes_y": 8550.0,
+      "header": "NOTES: UNLESS OTHERWISE SPECIFIED",
+      "Sections": {
+         "Section 1": {
+            "Title": "STANDARDS",
+            "Items": [
+               "THE PCB SHALL BE FABRICATED IN ACCORDANCE WITH THE CURRENT REVISION OF ${fab_standard}.",
+               "INTERPRET DIMENSIONS AND TOLERANCES IN ACCORDANCE WITH THE CURRENT REVISION OF ASME Y14.5M.",
+               "TEST IN ACCORDANCE WITH THE CURRENT REVISION OF IPC-TM-650 2.4.22.",
+               "DO NOT SCALE TO DRAWING."
+            ]
+         },
+         "Section 2": {
+            "Title": "MATERIAL",
+            "Items": [
+               "THE PCB DIELECTRIC MATERIAL SHALL BE ${material}.",
+               "THICKNESSES OF CONDUCTOR AND DIELECTRIC SHALL MATCH THE STACKUP DRAWING."
+            ]
+         },
+         "Section 3": {
+            "Title": "FLATNESS",
+            "Items": [
+               "BOW AND TWIST OF ASSEMBLY SUB-PANEL OR SINGULATED PWB SHALL NOT EXCEED 0.75%.",
+               "TEST IN ACCORDANCE WITH CURRENT REVISION OF IPC-TM-650 2.4.22."
+            ]
+         },
+         "Section 4": {
+            "Title": "ETCH GEOMETRY.",
+            "Items": [
+               "MEASURE WIDTH FROM THE BASE OF THE METALLIZATION.",
+               "FINISHED LINE WIDTH AND TERMINAL AREA SHALL NOT DEVIATE FROM THE GERBER PATTERN IMAGE BY MORE THAN 20%."
+            ]
+         },
+         "Section 5": {
+            "Title": "SURFACE FINISH",
+            "Items": [
+               "${surface_finish} - EXPOSED METAL SHALL HAVE COMPLETE SOLDER COVERAGE."
+            ]
+         },
+         "Section 6": {
+            "Title": "HOLES",
+            "Items": [
+               "SEE HOLE TABLE FOR DIMENSIONS (AFTER PLATING WHERE APPLICABLE).",
+               "PLATING IN HOLES SHALL BE CONTINUOUS ELECTROLYTIC COPPER IN ACCORDANCE WITH IPC-6012, CLASS 2.",
+               "SEE DRILL CHART FOR FINISHED HOLE SIZE AND PLATING.",
+               "ALL HOLES SHALL BE LOCATED WITHING 3 MIL OF TRUE POSITION AS SUPPLIED IN CAD DATA."
+            ]
+         },
+         "Section 7": {
+            "Title": "SOLDERMASK",
+            "Items": [
+               "SOLDERMASK OVER BARE COPPER (SMOBC) ON PRIMARY AND SECONDARY SIDES USING SUPPLIED ARTWORK IN ACCORDANCE WITH CURRENT REVISION OF IPC-SM-840 TYPE B.",
+               "COLOR: ${soldermask_color}.",
+               "LIQUID PHOTO-IMAGEABLE (LPI) 0.001 INCH TO 0.002 INCH THICKNESS, HALOGEN FREE.",
+               "NO BLEED-OUT ALLOWED OVER EXPOSED SMD PADS."
+            ]
+         },
+         "Section 8": {
+            "Title": "SILKSCREEN",
+            "Items": [
+               "SILKSCREEN PRIMARY AND SECONDARY SIDE WITH NON-CONDUCTIVE, NON-NUTRIENT EPOXY INK.",
+               "COLOR: ${silkscreen_color}.",
+               "ANY UNSPECIFIED STROKE WIDTH SHALL BE 5 MIL.",
+               "CLIP SILKSCREEN AWAY FROM ANY EXPOSED METAL."
+            ]
+         },
+         "Section 9": {
+            "Title": "FINISHING",
+            "Items": [
+               "REMOVE ALL BURRS AND BREAK SHARP EDGES."
+            ]
+         },
+         "Section 10": {
+            "Title": "PANELIZED PWBS LAYOUT",
+            "Items": [
+               "IF THE PWB IS PANELIZED, THE VENDOR HAS THE FREEDOM TO MOVE INDIVIDUAL OR GROUPED PWBS TO ANY LOCATION ON THE PANEL TO EASE FABRICATION OR TEST."
+            ]
+         },
+         "Section 11": {
+            "Title": "NET TIES AND SHORTS",
+            "Items": [
+               "CONSULT THE NET TIE SHORTS TABLE FOR NETS THAT ARE INTENTIONALLY SHORTED WITH NET TIES."
+            ]
+         },
+         "Section 12": {
+            "Title": "NON-DESTRUCTIVE EVALUATION",
+            "Items": [
+               "ALL PWBS SHALL PASS 100% ELECTRICAL TEST USING SUPPLIED IPC-D-365 NETLIST IN ACCORDANCE WITH CURRENT REVISION OF IPC-9252, CLASS 2.",
+               "CERTIFICATE OF CONFORMANCE SHALL BE SUPPLIED WITH EACH SHIPMENT.",
+               "IF A NETLIST IS NOT PROVIDED, AN INFERRED NETLIST FROM GERBER DATA IS A PERMISSIBLE SUBSTITUTE."
+            ]
+         }
+      }
+   }
+}

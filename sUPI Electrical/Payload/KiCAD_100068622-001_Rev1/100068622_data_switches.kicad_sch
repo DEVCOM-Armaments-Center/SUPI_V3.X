@@ -1,0 +1,3255 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d3e9adfe-61ac-448f-92f8-d12fb8714e08")
+	(paper "D")
+	(lib_symbols
+		(symbol "1a_Misc:MAX20336AEFT+"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 8.382 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "1a_Misc:FC2QFN-6"
+				(at 0.254 -26.416 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX20336.pdf"
+				(at 0 -32.258 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC SWITCH DPSTX1 330MOHM 6WLP"
+				(at 0 -30.226 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MAX20336AEFT+"
+				(at 11.938 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX20336AEFT+_0_1"
+				(rectangle
+					(start -12.7 13.97)
+					(end 12.7 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.985) (xy 0 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MAX20336AEFT+_1_1"
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "COM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "COM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 16.51 270)
+					(length 2.54)
+					(name "VCCEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "NO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "NO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "1a_Misc:MAX821UUS+T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.08 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "1a_Misc:SOT-143 Maxim"
+				(at 0 -45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max821-max822t.pdf"
+				(at 0 -45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC SUPERVISOR 1 CHANNEL 2.78V S78OT143-4"
+				(at 0 -45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MAX821UUS+T"
+				(at 9.906 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
+				(at 0 -45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX821UUS+T_0_1"
+				(rectangle
+					(start -8.89 7.62)
+					(end 8.89 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MAX821UUS+T_1_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "SRT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "1a_Misc:SN74AUP2G04DRYR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 4.572 9.652 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SN74AUP2G04DRYR"
+				(at 12.7 -9.398 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "1a_Misc:QFN-6_1.4x1mm_P0.5mm TI DRY6"
+				(at -0.254 -25.908 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74aup3g04.pdf"
+				(at 0 -23.622 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC INVERTER 3CH 3-INP 8X2SON"
+				(at 0.254 -33.782 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SN74AUP3G04DQER"
+				(at 0 -30.988 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 -28.448 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SN74AUP2G04DRYR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DQE8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AUP2G04DRYR_0_1"
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "2Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "1Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AUP2G04DRYR_1_1"
+				(circle
+					(center -0.889 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 1.27) (xy 3.175 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.27 -1.27) (xy -2.54 0) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 1.27) (xy 1.27 2.54) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.921 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "1a_Misc:TC7USB40MU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 4.064 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "1a_Misc:Toshiba UQFN-10_1.4x1.8mm_P0.4mm"
+				(at 0 -37.592 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13632&prodName=TC7USB40MU"
+				(at -0.254 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC USB SWITCH SPDT DUAL 10UQFN"
+				(at -0.254 -30.734 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TC7USB40MU"
+				(at 8.89 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Toshiba Semiconductor and Storage"
+				(at 0.254 -35.306 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TC7USB40MU_0_1"
+				(rectangle
+					(start -12.7 16.51)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 -5.08)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -8.89) (xy -3.81 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -6.35) (xy -3.81 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 6.35) (xy -2.54 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 8.89) (xy -2.54 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 8.89) (xy 0 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 9.525) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 6.35) (xy 0 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 8.89) (xy 0 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 6.35) (xy -6.35 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 8.89) (xy -3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TC7USB40MU_1_1"
+				(pin bidirectional line
+					(at 15.24 8.89 180)
+					(length 2.54)
+					(name "1D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -8.89 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "2D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 8.89 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 6.35 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "2D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 6.35 180)
+					(length 2.54)
+					(name "1D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -6.35 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 19.05 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "1a_Murata_Capacitors:GCM155R71H104ME02D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.1uF 50V"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GCM155R71H104ME02D"
+				(at -0.254 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GCM155R71H104ME02D_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GCM155R71H104ME02D_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "1a_Panasonic_Resistors:ERJ-2RKF1003X"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100K 1% 0.1W"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES SMD 100K OHM 1% 1/10W 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ERJ-2RKF1003X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panasonic Electronic Components"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ERJ-2RKF1003X_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ERJ-2RKF1003X_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 364.49 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "314d5774-de33-4b2f-97ed-32a63f8977df")
+	)
+	(junction
+		(at 364.49 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "523d9b0d-49d2-4cb5-9932-13e5903b9a26")
+	)
+	(junction
+		(at 472.44 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c181ca1-f5bf-4d10-aa2a-033adfce7dbd")
+	)
+	(junction
+		(at 341.63 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d192d2d-9656-4a59-9d6e-98f3f808ce29")
+	)
+	(junction
+		(at 471.17 292.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a622ff23-c784-4f87-b966-57f253ff8412")
+	)
+	(junction
+		(at 393.7 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3d796ec-d154-438f-a98e-5c52866e37ad")
+	)
+	(junction
+		(at 472.44 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2ea3487-1f01-4b7b-9073-e88fef177071")
+	)
+	(no_connect
+		(at 505.46 247.65)
+		(uuid "34608c8a-7913-42ac-9fdf-d2b5786f7ca6")
+	)
+	(no_connect
+		(at 505.46 250.19)
+		(uuid "9b7e70bc-32fc-4cc3-9895-06f5e497d5f9")
+	)
+	(no_connect
+		(at 330.2 254)
+		(uuid "f316e16f-82c6-4a35-baf6-b123c2c53901")
+	)
+	(wire
+		(pts
+			(xy 472.44 256.54) (xy 472.44 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d08499-6f45-4160-ac8e-26967cae34e3")
+	)
+	(wire
+		(pts
+			(xy 505.46 322.58) (xy 511.81 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034c3586-6f1d-4069-9893-78605eceba41")
+	)
+	(wire
+		(pts
+			(xy 421.64 254) (xy 474.98 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c8e933-c32a-47cc-b371-4c3d99d9b85c")
+	)
+	(wire
+		(pts
+			(xy 411.48 226.06) (xy 393.7 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047c444c-395c-44ca-94f0-075229d199e7")
+	)
+	(wire
+		(pts
+			(xy 429.26 292.1) (xy 471.17 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d1910e-088d-4932-be59-e62e23b1e056")
+	)
+	(wire
+		(pts
+			(xy 467.36 327.66) (xy 474.98 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af30469-7624-4702-8692-e424f58421bf")
+	)
+	(wire
+		(pts
+			(xy 364.49 254) (xy 364.49 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c3c070-5aac-42ce-90af-7936f6e21725")
+	)
+	(wire
+		(pts
+			(xy 490.22 347.98) (xy 482.6 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1689dc9b-64fc-4e71-a612-a5e9706ddbba")
+	)
+	(wire
+		(pts
+			(xy 464.82 241.3) (xy 474.98 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bedf82-2e6c-4bc9-8f19-c8657ace98a8")
+	)
+	(wire
+		(pts
+			(xy 364.49 269.24) (xy 341.63 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ecf187-73c0-4537-9e44-469182315a97")
+	)
+	(wire
+		(pts
+			(xy 393.7 226.06) (xy 393.7 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f802844-f59a-4767-9e45-c94fb4540066")
+	)
+	(wire
+		(pts
+			(xy 471.17 302.26) (xy 464.82 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ecc7c9-1133-428b-bfdd-5f03d5328b09")
+	)
+	(wire
+		(pts
+			(xy 471.17 292.1) (xy 471.17 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e49e495-8861-4ccd-b674-2f030b5b94fe")
+	)
+	(polyline
+		(pts
+			(xy 328.93 262.89) (xy 330.2 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8c5866-df04-4f9b-8b23-26d6cf59f7af")
+	)
+	(polyline
+		(pts
+			(xy 17.78 19.05) (xy 13.97 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fb3b7b-169e-47c1-ad54-f3778491492a")
+	)
+	(wire
+		(pts
+			(xy 505.46 327.66) (xy 511.81 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35dcd356-1a40-47ee-985f-500de8b118f9")
+	)
+	(wire
+		(pts
+			(xy 393.7 236.22) (xy 387.35 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9bb2ac-d3d5-4dd1-90d7-a7d466a78222")
+	)
+	(wire
+		(pts
+			(xy 472.44 212.09) (xy 472.44 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462a2edc-8970-4a45-9e53-6bc249ae8bac")
+	)
+	(wire
+		(pts
+			(xy 421.64 256.54) (xy 429.26 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b006ff-10df-47a8-a209-a7821e75f457")
+	)
+	(wire
+		(pts
+			(xy 467.36 322.58) (xy 474.98 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1bbd2f-1026-4a12-afe6-a79711b76d06")
+	)
+	(polyline
+		(pts
+			(xy 15.24 25.4) (xy 20.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bc4e3d-b3b8-4600-b789-9866670c7841")
+	)
+	(wire
+		(pts
+			(xy 490.22 292.1) (xy 471.17 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5584b97c-d41c-4e1f-a0b4-93634de7ddfb")
+	)
+	(polyline
+		(pts
+			(xy 323.85 262.89) (xy 328.93 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f6046b-edd0-41a5-972d-dd9c09ff2753")
+	)
+	(wire
+		(pts
+			(xy 341.63 269.24) (xy 341.63 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588cdbe3-0d9e-4374-926f-468bc52b517e")
+	)
+	(wire
+		(pts
+			(xy 490.22 308.61) (xy 490.22 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c34aaad-deb9-4616-a9bd-6c2447942004")
+	)
+	(wire
+		(pts
+			(xy 490.22 270.51) (xy 490.22 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714047ad-c18c-49bd-8470-7a097c6f7dbc")
+	)
+	(wire
+		(pts
+			(xy 411.48 245.11) (xy 411.48 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e901e6-4b64-44ae-8ec4-27b9907a6fa2")
+	)
+	(wire
+		(pts
+			(xy 411.48 265.43) (xy 411.48 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a299bcb-0cd0-42f7-8c8d-0d72a70f6cc2")
+	)
+	(wire
+		(pts
+			(xy 467.36 270.51) (xy 472.44 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8679b337-baf7-4c58-a2e7-f5e2e2e94542")
+	)
+	(wire
+		(pts
+			(xy 515.62 241.3) (xy 505.46 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae245d8-ce2b-4cc0-9a83-77fc8849d739")
+	)
+	(wire
+		(pts
+			(xy 353.06 254) (xy 364.49 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e92de7e-d874-4c39-9a2f-24cd6615e485")
+	)
+	(wire
+		(pts
+			(xy 490.22 212.09) (xy 490.22 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91769763-a0d6-46d8-a1e7-ce9efd01bb72")
+	)
+	(polyline
+		(pts
+			(xy 322.58 259.08) (xy 323.85 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933ae69e-bf41-495b-aa5a-f88a1e459367")
+	)
+	(wire
+		(pts
+			(xy 393.7 256.54) (xy 401.32 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96cea32b-d270-4f12-a89b-417e0cf04363")
+	)
+	(polyline
+		(pts
+			(xy 13.97 21.59) (xy 15.24 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bff401-6600-47c5-ac48-5d07b3b887dc")
+	)
+	(wire
+		(pts
+			(xy 341.63 234.95) (xy 341.63 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c8a795-a775-4ee1-88c3-1fb44a5a6ea3")
+	)
+	(wire
+		(pts
+			(xy 472.44 270.51) (xy 490.22 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33c99b0-3c73-4f18-bfde-47db9be3a51c")
+	)
+	(wire
+		(pts
+			(xy 364.49 254) (xy 401.32 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8471f7c-40cb-447d-9e8d-8b3685c808ad")
+	)
+	(wire
+		(pts
+			(xy 472.44 220.98) (xy 472.44 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd7b600-cf8c-48cf-9b47-3c3cf475255e")
+	)
+	(wire
+		(pts
+			(xy 472.44 222.25) (xy 466.09 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18c7105-6bab-451d-b512-5b6725ab4a77")
+	)
+	(polyline
+		(pts
+			(xy 17.78 19.05) (xy 21.59 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b431fa-cfb0-4945-86a1-7bffab5a8f8f")
+	)
+	(wire
+		(pts
+			(xy 393.7 234.95) (xy 393.7 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5c580f-5302-46a0-ab8f-6149369f8d11")
+	)
+	(wire
+		(pts
+			(xy 387.35 226.06) (xy 393.7 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd73a735-d0b7-4a54-9910-a08408c9c6d9")
+	)
+	(wire
+		(pts
+			(xy 429.26 256.54) (xy 429.26 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee41828-abe4-452c-9299-86e98d4158ef")
+	)
+	(polyline
+		(pts
+			(xy 20.32 25.4) (xy 21.59 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0dd78d0-7316-4201-aca1-268d9d280b9f")
+	)
+	(wire
+		(pts
+			(xy 472.44 212.09) (xy 490.22 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27e0e87-2366-4ff6-88c5-ca787f513c43")
+	)
+	(wire
+		(pts
+			(xy 471.17 300.99) (xy 471.17 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c287db97-557d-4054-89eb-f63d99a9751f")
+	)
+	(wire
+		(pts
+			(xy 490.22 339.09) (xy 490.22 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac37ae1-a8d5-4c32-a2e1-e95c35c5f732")
+	)
+	(wire
+		(pts
+			(xy 464.82 238.76) (xy 474.98 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1ec30f-c9ac-483d-92a0-81880390c8a9")
+	)
+	(wire
+		(pts
+			(xy 474.98 256.54) (xy 472.44 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58d2f59-aee1-40e3-a07f-e264d0199300")
+	)
+	(wire
+		(pts
+			(xy 335.28 269.24) (xy 341.63 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db83fa44-5a51-499e-9304-53e114731b20")
+	)
+	(wire
+		(pts
+			(xy 411.48 269.24) (xy 364.49 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ce6c45-66d8-4c38-bcec-61759b133602")
+	)
+	(wire
+		(pts
+			(xy 332.74 234.95) (xy 341.63 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e60dcc-bafd-4722-a599-d06e1b5f4190")
+	)
+	(wire
+		(pts
+			(xy 466.09 212.09) (xy 472.44 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23dfd82-cb64-4da3-9153-f6f8cc0bde0d")
+	)
+	(polyline
+		(pts
+			(xy 326.39 256.54) (xy 330.2 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d57224-9108-4cfb-8c06-c787a054b8dc")
+	)
+	(wire
+		(pts
+			(xy 515.62 238.76) (xy 505.46 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa26aebe-80e2-4c0f-ba1f-594599565c11")
+	)
+	(polyline
+		(pts
+			(xy 326.39 256.54) (xy 322.58 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb928db-31b0-484b-ad24-12320d6cb77d")
+	)
+	(wire
+		(pts
+			(xy 364.49 264.16) (xy 364.49 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3efa2e-1f53-479d-9a23-addad3c68ae2")
+	)
+	(text "DESIGN NOTES"
+		(exclude_from_sim no)
+		(at 13.716 16.256 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a7d3fd3-74a9-4623-a1c4-8eeca516dc9a")
+	)
+	(text "DATA SWITCHES"
+		(exclude_from_sim no)
+		(at 380.746 126.746 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+			)
+			(justify left bottom)
+		)
+		(uuid "5793aed2-735e-42f5-b294-e4e9c509d28a")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 325.374 261.62 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7097596-4334-48e7-9a6c-eb127e53b1ff")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 16.764 24.13 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee0c4b50-e3d5-41ba-a4fa-d1a8f35148e6")
+	)
+	(text "POWER-ON RESET DELAY IS 100MS MINIMUM, 200MS MAXIMUM, 160MS\nTYPICAL.  SWITCHES WILL DISCONNECT AS SOON AS 3.3V AUX RAIL\nDROPS BELOW THRESHOLD VOLTAGE."
+		(exclude_from_sim no)
+		(at 25.654 25.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7b4d006-f75c-4032-8039-c1dd6533feff")
+	)
+	(label "RESET"
+		(at 433.07 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16aaefe5-5f86-40e8-ac0c-92a1b8e4fabf")
+	)
+	(label "RESET"
+		(at 393.7 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a36fc88a-d994-4d92-b98a-b1db3f2123e7")
+	)
+	(hierarchical_label "GPIO_DOWN_1"
+		(shape bidirectional)
+		(at 511.81 327.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14da8af0-4d8d-4d40-bee1-3104ad7249da")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 387.35 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "295b196d-ec58-4955-8d4a-c723f8fd7b48")
+	)
+	(hierarchical_label "GPIO_UP_1"
+		(shape bidirectional)
+		(at 467.36 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a13a3ee-7cce-47d9-b66f-9cf12350d167")
+	)
+	(hierarchical_label "GPIO_UP_0"
+		(shape bidirectional)
+		(at 467.36 322.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33e155b8-eadb-4447-a292-172498194881")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 335.28 269.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4363eef5-b3db-4a00-add0-8fca3ee800df")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 464.82 302.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56c80aab-1425-44d3-8be9-d74f90d55b1a")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 466.09 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dbf8aa1-c5a9-4c0b-948a-fa3fe0a55408")
+	)
+	(hierarchical_label "USB_DOWN_DP"
+		(shape bidirectional)
+		(at 515.62 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66180b90-e403-4b35-a643-600dbe80acf9")
+	)
+	(hierarchical_label "USB_DOWN_DM"
+		(shape bidirectional)
+		(at 515.62 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70cbed9f-45a6-4768-8e4b-68f092d6a4cc")
+	)
+	(hierarchical_label "USB_UP_DM"
+		(shape bidirectional)
+		(at 464.82 241.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80bd0909-3cfd-482d-8c2e-e5242b570601")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 482.6 347.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "887f2ce0-1104-4810-8179-5021265390eb")
+	)
+	(hierarchical_label "GPIO_DOWN_0"
+		(shape bidirectional)
+		(at 511.81 322.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99523af2-0f3b-45c7-880a-6fcb2b3aff0a")
+	)
+	(hierarchical_label "P3V3"
+		(shape input)
+		(at 466.09 212.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7bacff9-3372-4590-be10-13e883b99b78")
+	)
+	(hierarchical_label "P3V3"
+		(shape input)
+		(at 332.74 234.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ecf76c3c-f3c0-4708-8d8c-d67e49d2670e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 467.36 270.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f657566a-707b-4c23-99e2-f30ead37f64b")
+	)
+	(hierarchical_label "P3V3"
+		(shape input)
+		(at 387.35 226.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb9932b3-43a1-494a-9e13-2cb00f4025cd")
+	)
+	(hierarchical_label "USB_UP_DP"
+		(shape bidirectional)
+		(at 464.82 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fee980cb-8913-4e32-b367-2ce1f3dab19c")
+	)
+	(symbol
+		(lib_id "1a_Misc:MAX821UUS+T")
+		(at 341.63 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3171e063-e069-42fd-abc7-e32441ec6c83")
+		(property "Reference" "U6"
+			(at 346.71 244.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 341.63 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "1a_Misc:SOT-143 Maxim"
+			(at 341.63 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max821-max822t.pdf"
+			(at 341.63 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC SUPERVISOR 1 CHANNEL 2.78V S78OT143-4"
+			(at 341.63 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MAX821UUS+T"
+			(at 351.282 264.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
+			(at 341.63 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7d08ce3-4d5b-4033-8b93-74459dcfdff4")
+		)
+		(pin "4"
+			(uuid "bc0a0fac-63eb-4592-9377-8724d7515d2f")
+		)
+		(pin "3"
+			(uuid "71e7d397-3560-45c0-bc6b-6f2336ae65cd")
+		)
+		(pin "1"
+			(uuid "832c2961-1d87-4212-bb6a-34235130ee0a")
+		)
+		(instances
+			(project "100068622-001_Rev1"
+				(path "/bceb386d-5be1-4999-9abd-82adc02aa30d/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1a_Panasonic_Resistors:ERJ-2RKF1003X")
+		(at 364.49 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35ea224d-7a4a-4b59-98de-78860e7ed816")
+		(property "Reference" "R13"
+			(at 367.03 259.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K 1% 0.1W"
+			(at 367.03 261.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 369.57 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 364.49 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 100K OHM 1% 1/10W 0402"
+			(at 364.49 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 364.49 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF1003X"
+			(at 364.49 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "536972c6-a8d0-4e91-b223-3f8092f69d03")
+		)
+		(pin "1"
+			(uuid "9bb355de-fc78-4300-ba2e-40aaef8042f7")
+		)
+		(instances
+			(project "100068622-001_Rev1"
+				(path "/bceb386d-5be1-4999-9abd-82adc02aa30d/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1a_Misc:MAX20336AEFT+")
+		(at 490.22 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4967a714-baee-4722-b95e-b9f0942713f8")
+		(property "Reference" "U9"
+			(at 492.4141 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 490.22 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "1a_Misc:FC2QFN-6"
+			(at 490.474 351.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX20336.pdf"
+			(at 490.22 357.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC SWITCH DPSTX1 330MOHM 6WLP"
+			(at 490.22 355.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MAX20336AEFT+"
+			(at 492.4141 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
+			(at 490.22 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "9378cc57-39ae-4fc6-ae27-1c3dba3bc9e0")
+		)
+		(pin "1"
+			(uuid "105f9fd1-f813-46e2-bc33-23c1cdf2cd32")
+		)
+		(pin "4"
+			(uuid "9537c304-8bb5-4602-b0b1-2d9441414084")
+		)
+		(pin "6"
+			(uuid "8be8a872-ed04-467e-839a-70f0099abcca")
+		)
+		(pin "2"
+			(uuid "9113f40d-ffd9-4b30-bdf8-1392a3a177ef")
+		)
+		(pin "3"
+			(uuid "bb846b4a-2120-46a0-8a2a-d15c03842c29")
+		)
+		(instances
+			(project "100068622-001_Rev1"
+				(path "/bceb386d-5be1-4999-9abd-82adc02aa30d/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1a_Misc:TC7USB40MU")
+		(at 490.22 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58d4e7f2-cf86-414c-9dee-207525c73250")
+		(property "Reference" "U8"
+			(at 492.4141 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 492.4141 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1a_Misc:Toshiba UQFN-10_1.4x1.8mm_P0.4mm"
+			(at 490.22 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13632&prodName=TC7USB40MU"
+			(at 490.22 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC USB SWITCH SPDT DUAL 10UQFN"
+			(at 490.22 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TC7USB40MU"
+			(at 499.11 264.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Toshiba Semiconductor and Storage"
+			(at 490.474 282.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78263fea-f162-4080-90bc-e1cab994648d")
+		)
+		(pin "4"
+			(uuid "4890f291-03aa-42df-8b6f-b5a57913d4df")
+		)
+		(pin "6"
+			(uuid "ee720f14-0c18-4116-8e42-23c8389b25f1")
+		)
+		(pin "7"
+			(uuid "de8c7c03-afa1-4f6d-acc2-f11c017d0dfc")
+		)
+		(pin "10"
+			(uuid "05f2eb9b-8ec9-42c4-994e-fa3813b4f14c")
+		)
+		(pin "8"
+			(uuid "72b3ea67-53ff-47cf-b778-32e7a979ecc1")
+		)
+		(pin "3"
+			(uuid "a46ed61f-3a56-4e14-83fe-8c986f804138")
+		)
+		(pin "1"
+			(uuid "d1b24338-8d0e-4fae-a4c9-06fc31f610bb")
+		)
+		(pin "5"
+			(uuid "2e74453b-5c40-446c-a1c1-57908d7606f7")
+		)
+		(pin "9"
+			(uuid "b6e21d35-eb1b-4931-94c2-51ca15995e79")
+		)
+		(instances
+			(project "100068622-001_Rev1"
+				(path "/bceb386d-5be1-4999-9abd-82adc02aa30d/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1a_Murata_Capacitors:GCM155R71H104ME02D")
+		(at 472.44 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "675d7cb5-9091-4cea-921b-657c3ab25496")
+		(property "Reference" "C24"
+			(at 476.25 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 50V"
+			(at 476.25 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 473.71 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf"
+			(at 472.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 472.44 232.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 472.44 228.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155R71H104ME02D"
+			(at 472.186 230.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ce82ada-4fdb-4c86-8a16-fb13cec32873")
+		)
+		(pin "2"
+			(uuid "238c3520-d8b5-44fe-9e00-21c35518f02a")
+		)
+		(instances
+			(project "100068622-001_Rev1"
+				(path "/bceb386d-5be1-4999-9abd-82adc02aa30d/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1a_Murata_Capacitors:GCM155R71H104ME02D")
+		(at 393.7 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9706d337-7c2f-4c3e-9bf6-dab7cf5a92c0")
+		(property "Reference" "C22"
+			(at 397.51 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 50V"
+			(at 397.51 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 394.97 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf"
+			(at 393.7 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 393.7 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 393.7 242.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155R71H104ME02D"
+			(at 393.446 244.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a228f5cb-b635-491d-afd8-ee97851cc9c7")
+		)
+		(pin "2"
+			(uuid "2f796798-ecc3-432c-b917-be8412e93844")
+		)
+		(instances
+			(project "100068622-001_Rev1"
+				(path "/bceb386d-5be1-4999-9abd-82adc02aa30d/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1a_Murata_Capacitors:GCM155R71H104ME02D")
+		(at 471.17 297.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7188ae4-4502-4af9-99ee-bebbd6a72730")
+		(property "Reference" "C23"
+			(at 474.98 295.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 50V"
+			(at 474.98 298.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 472.44 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104ME02-01.pdf"
+			(at 471.17 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 471.17 312.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 471.17 308.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM155R71H104ME02D"
+			(at 470.916 310.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5925c0b7-2703-4c46-90eb-b57c93fc3bab")
+		)
+		(pin "2"
+			(uuid "a28e8355-a0eb-4162-9b63-d885ae36afc9")
+		)
+		(instances
+			(project "100068622-001_Rev1"
+				(path "/bceb386d-5be1-4999-9abd-82adc02aa30d/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1a_Misc:SN74AUP2G04DRYR")
+		(at 411.48 255.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2823af7-d471-4e00-8bec-5ab196094ec3")
+		(property "Reference" "U7"
+			(at 413.6741 242.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SN74AUP2G04DRYR"
+			(at 413.6741 245.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1a_Misc:QFN-6_1.4x1mm_P0.5mm TI DRY6"
+			(at 411.226 281.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74aup3g04.pdf"
+			(at 411.48 278.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC INVERTER 3CH 3-INP 8X2SON"
+			(at 411.734 289.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74AUP3G04DQER"
+			(at 411.48 286.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 411.48 283.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3f4bb3a9-7ed3-47c1-8623-1bd88f18ea41")
+		)
+		(pin "5"
+			(uuid "8cdb326d-108d-4ae9-86da-a1faf688e299")
+		)
+		(pin "4"
+			(uuid "ceffce5d-9f71-4f1d-8624-02155f4db30a")
+		)
+		(pin "3"
+			(uuid "28b9efee-7656-4f8b-aef4-7dbe7b3be378")
+		)
+		(pin "1"
+			(uuid "4ae7798f-54ac-48ad-a162-da80d386720d")
+		)
+		(pin "2"
+			(uuid "35b3c796-a0ad-4887-bb58-4c58ad82b69f")
+		)
+		(instances
+			(project "100068622-001_Rev1"
+				(path "/bceb386d-5be1-4999-9abd-82adc02aa30d/ef3cca1a-7d9b-4bab-8400-55f5f2037a19/f2dfb0e7-9ad1-460d-a6f9-c80c2abfcc8b"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
