@@ -1,70 +1,77 @@
-# Small Universal Payload Interface (sUPI) — Platform Side Brief
+# Small Universal Payload Interface (sUPI): Platform Side Brief
 
 **sUPI v3.3**
 
 > **DISTRIBUTION STATEMENT A. APPROVED FOR PUBLIC RELEASE; DISTRIBUTION IS UNLIMITED.**
 
----
-
 ## Overview
 
-The sUPI interface provides an interchangeable interface to connect payloads to UxS platforms such
-as drones. The interface is a subset of the Picatinny Common Lethality Interface Kit (CLIK) Design
-Standard. The interface supports a detect mechanism in which the payload signals are controlled by
-the platform's interface board. The payload interface board provides power to the payload and
-connectivity for USB and GPIOs passed through the physical / electrical interface.
+sUPI is an interface that connects payloads to UxS platforms, for example drones. You can replace
+one payload with a different payload. sUPI is a subset of the Picatinny Common Lethality Integration
+Kit (CLIK) Design Standard. The interface board of the platform detects the payload and controls the
+payload signals. The payload interface board supplies power to the payload. USB and GPIO signals go
+through the physical and electrical interface.
 
----
+## Electrical interface for the platform
 
-## Electrical Interface for Platform
+The sUPI platform side board has solder pads for the wires to the platform avionics. Figure 1 shows
+the wiring diagram.
 
-The sUPI platform side electronics board has solder pads for connecting wires to platform avionics.
-Connections should be made with 18–22 AWG wire for power (`VBATT`, `VBATT_RET`) and 24–30 AWG for
-signals, as indicated in the wiring diagram (Figure 1).
+- Use 18 to 22 AWG wire for power (`VBATT`, `VBATT_RET`).
+- Use 24 to 30 AWG wire for signals.
 
-The platform will need to provide the following to the sUPI interface board:
+The platform must supply these signals to the sUPI interface board:
 
 | Signal | Range |
 | --- | --- |
 | `VBATT` | Platform battery, 13 to 25.2 VDC |
 | `VBATT_RET` | Battery return |
-| `GPIO` | Typically PWM, ±5 VDC |
+| `GPIO` | 3.3 V PWM, 50 Hz |
 | `USB` | 0 to 3.3 VDC |
 
-The 13 to 25.2 VDC range corresponds to a 4S–6S lithium-polymer pack.
+The range of 13 to 25.2 VDC agrees with a 4S to 6S lithium-polymer battery pack.
 
-### Solder Pads and Jumpers
+### Solder pads and jumpers
 
-The platform board silkscreen labels its wiring pads and configuration jumpers directly:
+The silkscreen on the platform board shows the names of the wiring pads and the configuration
+jumpers:
 
-- **Wiring pads:** `VBATT`, `GND`, `GPIO 0`, `GPIO 1`, `+USB−`, `AUX`
-- **Configuration jumpers:** `DETECT PAYLOAD`, `SELECT`, `FORCE ON`, `LO BATT CUTOFF`
+- Wiring pads: `VBATT`, `GND`, `GPIO 0`, `GPIO 1`, `+USB−`, `AUX`
+- Configuration jumpers: `DETECT PAYLOAD`, `SELECT`, `FORCE ON`, `LO BATT CUTOFF`
 
-![Figure 1 — Platform side wiring. Top: battery connection to VBATT and GND. Bottom: avionics connections to GPIO, USB, and ground.](assets/platform_fig1_wiring.png)
+> **CAUTION:** Make sure that a solder blob enables `DETECT` before you install the platform side on
+> a platform.
 
-**Figure 1.** Platform side wiring diagram. Battery to `VBATT` / `GND`; avionics to `GPIO`, `+USB−`,
-and ground.
+`DETECT` is the default configuration of the platform-side card. With `DETECT`, you can safely
+connect a payload to a platform that has power ("hot plug"). `FORCE ON` overrides the detect gate.
+With `FORCE ON`, the power pins always have voltage, also when no payload is connected.
 
----
+![Figure 1. Platform side wiring. Top: battery connection to VBATT and GND. Bottom: avionics connections to GPIO, USB, and ground.](assets/platform_fig1_wiring.png)
 
-## Mechanical Interface for Platform
+**Figure 1.** Platform side wiring diagram. The battery connects to `VBATT` and `GND`. The avionics
+connect to `GPIO`, `+USB−` and ground.
 
-The sUPI Platform Side is intended to be mounted to a platform via **3X M3 × 0.5 mm thread, 8 mm
-long, black-oxide stainless steel Phillips flat head screws** (e.g. McMaster PN 91698A304). The
-mounting hole pattern is shown in Figure 2.
+## Mechanical interface for the platform
 
-Platforms should be modified in one of the following ways to install a sUPI Platform Side
-interface:
+Use 3X M3 × 0.5 mm, 8 mm long, black-oxide stainless steel Phillips flat-head screws to attach the
+sUPI Platform Side to a platform. An example is McMaster PN 91698A304. Figure 2 shows the hole
+pattern.
 
-- **Drill and tap 3X holes** into the platform as shown in Figure 2, in the desired location for
-  mounting the sUPI Platform Side.
-- **Create a custom adapter** that includes the sUPI platform side hole pattern and enables mounting
-  to an existing mounting interface on a platform.
+> **WARNING:** Align the platform CG and the payload CG when you install the two halves. If these
+> CG points are not aligned, there can be critical failures.
 
-![Figure 2 — Platform side mounting hole pattern, three M3 holes](assets/platform_fig2_hole_pattern.png)
+Use one of these two methods to install the sUPI Platform Side:
 
-**Figure 2.** Platform side mounting hole pattern — 3X M3, viewed from the mounting face.
-Dimensions in inches. The three smaller holes are M1.6 board-mounting features, not host mounting
-points.
+- Drill and tap 3X holes into the platform, as Figure 2 shows. Put the holes where the sUPI
+  Platform Side will be. Align the platform CG with the CG point in Figure 2, as near as possible.
+- Make an adapter. Put the sUPI platform side hole pattern on the adapter. Attach the adapter to an
+  interface that is on the platform.
 
-Refer to drawing `19200_13122518` for controlling dimensions and tolerances.
+![Figure 2. Platform side mounting hole pattern, three M3 holes, with the CG reference point marked](assets/platform_fig2_hole_pattern.png)
+
+**Figure 2.** Platform side hole pattern, 3X M3, seen from the mounting face. The dimensions are in
+inches. The `VEHICLE CG` callout shows the center-of-gravity reference point. This point is on the
+centerline, 1.099 in from the top edge. The three smaller holes are M1.6 holes to attach the board.
+Do not use them to attach the platform side to the host.
+
+Refer to drawing `19200_13122518` for the dimensions and tolerances. The drawing controls the part.
