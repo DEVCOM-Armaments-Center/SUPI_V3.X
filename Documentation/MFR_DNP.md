@@ -1,4 +1,4 @@
-# sUPI Electrical Interfaces — Do Not Populate
+# sUPI Electrical Interfaces: Do Not Populate
 
 **DEPARTMENT OF THE ARMY**
 U.S. Army Combat Capabilities Development Command, Armaments Center
@@ -9,7 +9,7 @@ Picatinny Arsenal, New Jersey 07806-5000
 | **Office Symbol** | FCDD-ACE-P |
 | **Date** | 30 March 2026 |
 | **Subject** | sUPI Electrical Interfaces Do Not Populate |
-| **Applies to** | Platform card `PB-F-0210` (assembly `100064667`) |
+| **Applies to** | Platform card, assembly `100064667-001` Rev 1 |
 
 > **DISTRIBUTION STATEMENT A. APPROVED FOR PUBLIC RELEASE; DISTRIBUTION IS UNLIMITED.**
 
@@ -21,7 +21,7 @@ The low-battery / undervoltage cutoff feature of the sUPI reference design is un
 in its current form can prevent power being supplied to sUPI payloads.
 
 Unless the feature is specifically required, **do not populate** the following components on the
-**platform** board. Omitting them is also a cost saving.
+platform board. Omitting them is also a cost saving.
 
 | Reference | Device | Function |
 | --- | --- | --- |
@@ -31,11 +31,14 @@ Unless the feature is specifically required, **do not populate** the following c
 | `R3` | 200 kΩ, 0.1%, 0402 | Undervoltage threshold divider |
 | `R4` | 1 kΩ, 1%, 0402 | Supervisor support |
 | `C2` | 0.1 µF, 50 V, 0402 | Supervisor decoupling |
-| `JP1` | — | Low-battery cutoff jumper |
+| `JP1` | Jumper | Low-battery cutoff jumper |
 
-**Effect:** the platform board is built without undervoltage lockout, so payload power continues to
+**Effect:** The platform board is built without undervoltage lockout, so payload power continues to
 be supplied as the battery falls. If your application depends on brownout protection, implement it
 in platform avionics upstream of this interface.
+
+> The released platform BOM and pick-and-place file still show these parts. Refer to
+> [Known Issues: platform BOM includes removed parts](Known%20Issues/platform-bom-includes-removed-parts.md).
 
 ---
 

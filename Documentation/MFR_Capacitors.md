@@ -1,4 +1,4 @@
-# sUPI Electrical Interfaces — Capacitors
+# sUPI Electrical Interfaces: Capacitors
 
 **DEPARTMENT OF THE ARMY**
 U.S. Army Combat Capabilities Development Command, Armaments Center
@@ -9,15 +9,15 @@ Picatinny Arsenal, New Jersey 07806-5000
 | **Office Symbol** | FCDD-ACE-P |
 | **Date** | 30 March 2026 |
 | **Subject** | sUPI Electrical Interfaces Capacitors |
-| **Applies to** | Payload card `PB-F-0209`, platform card `PB-F-0210` |
+| **Applies to** | Payload card, assembly `100068622-001` Rev 1; platform card, assembly `100064667-001` Rev 1 |
 
 > **DISTRIBUTION STATEMENT A. APPROVED FOR PUBLIC RELEASE; DISTRIBUTION IS UNLIMITED.**
 
-> ### Superseded — build from the BOM
+> ### The released BOMs still use Murata parts
 >
-> The alternate part numbers below are **already in the released v3.3 bills of material.** No Murata
-> parts remain on any of the three circuit cards, and several passive positions are multi-sourced
-> beyond what this note lists. Build from the released BOM.
+> The KiCad BOMs in this release show the original Murata part numbers at all the positions in
+> the tables below. Order the alternative parts. Refer to
+> [Known Issues: Murata capacitors in BOM](Known%20Issues/murata-capacitors-in-bom.md).
 
 ---
 
@@ -42,13 +42,13 @@ voltage ratings, and package sizes are unchanged from the BOMs as they stood at 
 | `C5`, `C9` | 2 | 10 µF 6.3 V | CAP CER 10UF 6.3V X5R 0402 | `GMC04X5R106M6R3NT` | CAL-Chip Electronics |
 | `C8` | 1 | 10000 pF 50 V | CAP CER 10000PF 50V X7R 0402 | `CGA2B3X7R1H103K050BB` | TDK |
 | `C12`, `C13` | 2 | 10 pF 50 V | CAP CER 10PF 50V C0G/NP0 0402 | `04025U100F4T2A` | Kyocera AVX |
-| `C14`–`C19` | 6 | 22 µF 25 V | CAP CER 22UF 25V X5R 0805 | `C2012X5R1V226M125AC` | TDK |
+| `C14` to `C19` | 6 | 22 µF 25 V | CAP CER 22UF 25V X5R 0805 | `C2012X5R1V226M125AC` | TDK |
 
 ## Platform
 
 | Ref | Qty | Value | Description | Alternate MPN | Manufacturer |
 | --- | --- | --- | --- | --- | --- |
-| `C1`, `C2`, `C6`, `C7`, `C13`, `C18`, `C23`, `C27`–`C33` | 14 | 0.1 µF 50 V | CAP CER 0.1UF 50V X7R 0402 | `C1005X7R1H104K050BB` | TDK |
+| `C1`, `C2`, `C6`, `C7`, `C13`, `C18`, `C23`, `C27` to `C33` | 14 | 0.1 µF 50 V | CAP CER 0.1UF 50V X7R 0402 | `C1005X7R1H104K050BB` | TDK |
 | `C3`, `C11`, `C12` | 3 | 10 µF 50 V | CAP CER 10UF 50V X5R 0805 | `C0805B106K050T` | Holy Stone Enterprise Co |
 | `C4`, `C14` | 2 | 10000 pF 50 V | CAP CER 10000PF 50V X7R 0402 | `CC0402KRX7R9BB103` | YAGEO |
 | `C5`, `C9` | 2 | 10 µF 6.3 V | CAP CER 10UF 6.3V X5R 0402 | `CL05A106MP5NUNC` | Samsung |
@@ -58,12 +58,12 @@ voltage ratings, and package sizes are unchanged from the BOMs as they stood at 
 
 ---
 
-## Notes on the Substitutions
+## Notes on the substitutions
 
-- Two positions were already TDK and unchanged: payload `C25`–`C27` and platform
-  `C15`–`C22`, both 22 µF 35 V `C2012X5R1V226M125AC` (TDK).
+- Two positions were already TDK and unchanged: payload `C25` to `C27` and platform
+  `C15` to `C22`, both 22 µF 35 V `C2012X5R1V226M125AC` (TDK).
 - Platform `C10` was a `GRT`-series part (automotive, soft-termination); the alternate is an `X7S`
-  dielectric rather than the original `X5R`. The released BOM adopted the `X7S` part at 16 V.
+  dielectric rather than the original `X5R`. The KiCad BOM still shows the original `GRT` part.
 
 ---
 
