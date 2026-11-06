@@ -1,4 +1,4 @@
-# sUPI v3.3 TDP — repository exclusions
+# sUPI v3.3 TDP: repository exclusions
 
 # ---------------------------------------------------------------------------
 # Native mechanical CAD
@@ -17,30 +17,18 @@ sUPI Mechanicals/*.frm.1
 sUPI Mechanicals/trail.txt.1
 sUPI Mechanicals/*_log.xml
 
-# Altium local history. Contains a nested .git repository, which git cannot
-# track as ordinary content, plus every intermediate autosave.
-**/.history/
+# KiCad working files: lock files (left behind if KiCad exits uncleanly),
+# per-user view state (.kicad_prl), the footprint cache, and autosave
+# backups / local history. None of them is design data.
+sUPI Electrical/**/~*.lck
+sUPI Electrical/**/*.kicad_prl
+sUPI Electrical/**/fp-info-cache
+sUPI Electrical/**/*-backups/
+sUPI Electrical/**/.history/
+sUPI Electrical/**/_autosave-*
 
 # ---------------------------------------------------------------------------
-# Altium Draftsman drawing sources
-# ---------------------------------------------------------------------------
-# The released fabrication and assembly drawings are the PDFs in the FAB- and
-# ASM- folders.
-sUPI Electrical/**/*.PCBDwf
-
-# ---------------------------------------------------------------------------
-# Redundant generated output
-# ---------------------------------------------------------------------------
-# Unpacked ODB++ trees: 147 machine-generated files that duplicate the .tgz
-# and .zip archives sitting in the same folder. Archives are tracked.
-sUPI Electrical/**/ODB/odb/
-
-# IPC2581 .cvg files are 26-29 MB each and carry the same design data as the
-# Gerber and ODB++ sets.
-sUPI Electrical/**/IPC2581/
-
-# ---------------------------------------------------------------------------
-# Externally controlled document — not mirrored
+# Externally controlled document, not mirrored
 # ---------------------------------------------------------------------------
 # The Picatinny CLIK Design Standard has its own revision history and point of
 # contact. Request the current revision from the design activity; the docs
@@ -52,16 +40,20 @@ CLIK-Design-Standard-v3.pdf
 # ---------------------------------------------------------------------------
 # Converted to Markdown; the .md versions are tracked.
 sUPI Mechanicals/Change Log.docx
-sUPI_Payload_Brief.pdf
-sUPI_Platform_Brief.pdf
+
+# Documentation is published as Markdown only. PDF copies of the briefs, MFR
+# notes and other documents stay out of the repository, wherever they are put.
+# Drawing and schematic PDFs in sUPI Mechanicals/ and sUPI Electrical/ are
+# design data and are still tracked.
+/*.pdf
+Documentation/**/*.pdf
 sUPI Electrical/MFR_*.pdf
-MFR_Reference_Design.pdf
 
 # ---------------------------------------------------------------------------
 # Build artifacts
 # ---------------------------------------------------------------------------
-# .axf: debug ELF builds.
-sUPI Firmware/*.axf
+# .axf: debug ELF builds. The released image is build/supi_firmware.hex.
+sUPI Firmware/**/*.axf
 
 # ---------------------------------------------------------------------------
 # Internal working record

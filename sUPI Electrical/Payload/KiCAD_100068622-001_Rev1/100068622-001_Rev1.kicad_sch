@@ -1,0 +1,358 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bceb386d-5be1-4999-9abd-82adc02aa30d")
+	(paper "D")
+	(title_block
+		(title "sUPI PAYLOAD BOARD")
+		(date "2023-03-30")
+		(rev "1")
+		(company "")
+		(comment 1 "PWB PART 100043659-001")
+		(comment 2 "PWA PART 100045703-001")
+		(comment 3 "100046137")
+	)
+	(lib_symbols)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 402.59 276.86 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+			(href "#2")
+		)
+		(uuid "09ff2fc0-3d48-4b4b-9ee6-e43fb835723c")
+	)
+	(text_box "SHEET"
+		(exclude_from_sim no)
+		(at 402.59 266.7 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+		)
+		(uuid "144f6c74-5a0b-4d81-864c-21e47f560a35")
+	)
+	(text_box "6"
+		(exclude_from_sim no)
+		(at 402.59 312.42 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+			(href "#6")
+		)
+		(uuid "18403f71-f905-4f24-8eb4-094d15867230")
+	)
+	(text_box "DATA SWITCHES"
+		(exclude_from_sim no)
+		(at 332.74 321.31 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+			(href "#7")
+		)
+		(uuid "2e2dbc2a-6024-4586-b735-af284efff123")
+	)
+	(text_box "5"
+		(exclude_from_sim no)
+		(at 402.59 303.53 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+			(href "#5")
+		)
+		(uuid "4f3c5964-4d1c-4cc9-8184-8857adaaadd2")
+	)
+	(text_box "4"
+		(exclude_from_sim no)
+		(at 402.59 294.64 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+			(href "#4")
+		)
+		(uuid "55e0819b-2ba1-4776-b9d8-728e53236802")
+	)
+	(text_box "TITLE"
+		(exclude_from_sim no)
+		(at 332.74 266.7 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+		)
+		(uuid "78074c91-07ba-4d15-85f3-723f01322f65")
+	)
+	(text_box "PAYLOAD DETECT"
+		(exclude_from_sim no)
+		(at 332.74 294.64 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+			(href "#4")
+		)
+		(uuid "787bad31-dba7-4a84-a23c-4f1ec2186232")
+	)
+	(text_box "7"
+		(exclude_from_sim no)
+		(at 402.59 321.31 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+			(href "#7")
+		)
+		(uuid "94183012-74df-4d26-97f7-4ef1ebe9f6a5")
+	)
+	(text_box "BLOCK DIAGRAM"
+		(exclude_from_sim no)
+		(at 332.74 276.86 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+			(href "#2")
+		)
+		(uuid "a549221b-546d-48a5-87e2-c70c29012191")
+	)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 402.59 285.75 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+			(href "#3")
+		)
+		(uuid "b37274b3-2143-42ae-a28d-bef683f24dc0")
+	)
+	(text_box "IDEAL DIODE"
+		(exclude_from_sim no)
+		(at 332.74 303.53 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+			(href "#5")
+		)
+		(uuid "b704a889-5ea9-4229-ab0e-f216f55fc22e")
+	)
+	(text_box "POWER SUPPLIES"
+		(exclude_from_sim no)
+		(at 332.74 285.75 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+			(href "#3")
+		)
+		(uuid "d2eaef0b-9b65-4964-bb3d-8d32658a8540")
+	)
+	(text_box "RAIL DISCHARGE"
+		(exclude_from_sim no)
+		(at 332.74 312.42 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+			(href "#6")
+		)
+		(uuid "dea78205-166e-4016-857b-8468a8a640dc")
+	)
+	(text "sUPI PAYLOAD BOARD"
+		(exclude_from_sim no)
+		(at 441.96 207.01 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "0451863e-0193-4418-8c62-f35386da7c42")
+	)
+	(text "CONTENTS"
+		(exclude_from_sim no)
+		(at 355.854 260.858 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "6f879bad-75ab-4115-8cf2-d20119f78fba")
+	)
+	(sheet
+		(at 8.89 537.21)
+		(size 13.97 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef3cca1a-7d9b-4bab-8400-55f5f2037a19")
+		(property "Sheetname" "Block Diagram"
+			(at 8.89 536.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "100068622_block_diagram.kicad_sch"
+			(at 8.89 550.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "100068622-001_Rev1"
+				(path "/bceb386d-5be1-4999-9abd-82adc02aa30d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
