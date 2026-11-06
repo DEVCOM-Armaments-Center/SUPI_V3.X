@@ -1,0 +1,278 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b09eeac5-71fd-40df-bf2a-36b7f5095eb2")
+	(paper "D")
+	(title_block
+		(title "sUPI PLATFORM BOARD")
+		(date "2023-04-12")
+		(rev "1")
+		(company "")
+		(comment 1 "PWB PART 100043655-001")
+		(comment 2 "PWA PART 100046136-001")
+		(comment 3 "100046138")
+	)
+	(lib_symbols)
+	(text_box "5"
+		(exclude_from_sim no)
+		(at 392.43 299.72 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+			(href "#5")
+		)
+		(uuid "0cb74d1a-0dc8-46de-ab3c-091bcf6505a8")
+	)
+	(text_box "2"
+		(exclude_from_sim no)
+		(at 392.43 273.05 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+			(href "#2")
+		)
+		(uuid "182da1b5-3c8e-4e4b-bb51-5c5f9943961c")
+	)
+	(text_box "DATA SWITCHES"
+		(exclude_from_sim no)
+		(at 322.58 299.72 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+			(href "#5")
+		)
+		(uuid "2a7ba6d0-3612-42d8-b519-f873ac9875b9")
+	)
+	(text_box "4"
+		(exclude_from_sim no)
+		(at 392.43 290.83 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+			(href "#4")
+		)
+		(uuid "328c9593-838a-44fd-8cb0-f05608277695")
+	)
+	(text_box "PAYLOAD POWER CONTROL"
+		(exclude_from_sim no)
+		(at 322.58 290.83 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+			(href "#4")
+		)
+		(uuid "53f2535f-3829-406d-86ac-2ff1ef93d2b8")
+	)
+	(text_box "BLOCK DIAGRAM"
+		(exclude_from_sim no)
+		(at 322.58 273.05 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+			(href "#2")
+		)
+		(uuid "6bba8c3a-b313-4f7d-a895-6710da00d480")
+	)
+	(text_box "TITLE"
+		(exclude_from_sim no)
+		(at 322.58 262.89 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+		)
+		(uuid "74df4fbe-57ad-4b7c-a89d-32981687553e")
+	)
+	(text_box "3"
+		(exclude_from_sim no)
+		(at 392.43 281.94 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+			(href "#3")
+		)
+		(uuid "7aef79f5-fa78-4f0c-93fe-4b0d36315225")
+	)
+	(text_box "POWER INPUT"
+		(exclude_from_sim no)
+		(at 322.58 281.94 0)
+		(size 69.85 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left top)
+			(href "#3")
+		)
+		(uuid "a966a52b-3f34-4b4e-86a6-23e84b57807e")
+	)
+	(text_box "SHEET"
+		(exclude_from_sim no)
+		(at 392.43 262.89 0)
+		(size 19.05 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify top)
+		)
+		(uuid "fb3621fa-bd82-45e2-9f06-97c02d034f2d")
+	)
+	(text "sUPI PLATFORM BOARD"
+		(exclude_from_sim no)
+		(at 431.8 203.2 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "86d08ee4-eb28-4982-9301-72beb2d1dccc")
+	)
+	(text "CONTENTS"
+		(exclude_from_sim no)
+		(at 345.694 257.048 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "96fcf59a-107f-4ee0-96ee-75e7b6a09a82")
+	)
+	(sheet
+		(at 7.62 542.29)
+		(size 12.7 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "337f4b07-af35-4453-b02f-d1aaddc85064")
+		(property "Sheetname" "Block Diagram"
+			(at 7.62 541.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "100046138_block_diagram.kicad_sch"
+			(at 7.62 551.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "100064667"
+				(path "/b09eeac5-71fd-40df-bf2a-36b7f5095eb2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
